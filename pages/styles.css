@@ -7,6 +7,7 @@
 body {
   font-family: "Roboto", sans-serif;
   background-color: #f4f4f4;
+  padding-bottom: 20px;
 }
 
 .container {
@@ -17,7 +18,7 @@ body {
 
 h1 {
   margin-bottom: 20px;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 h2 {
