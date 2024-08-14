@@ -412,3 +412,28 @@ $
 In this case, the amplitude of the oscillation decays faster than the overdamped case.
 
 
+3. *Case 3*: If $Gamma^2 < omega_0^2$: Underdamping
+
+In this case values of $m$ will be complex.
+
+$
+  m = -Gamma plus.minus sqrt(Gamma^2 - omega_0^2) = -Gamma plus.minus i mu
+$
+
+where $mu = sqrt(omega_0^2 - Gamma^2)$
+
+Then, we can get the final expression under same boundary conditions by substituting $beta = i mu$
+
+$
+  x(t) = v_0/mu e^(-Gamma t) sin(mu t)
+$
+
+// #image("images/underdamp.png", width: 40%)
+
+To recap, the following expressions are for boundary condition - 1 in each case:
+
+1. Overdamping: $x(t) = v_0 / beta e^(-Gamma t) sinh(beta t)$
+2. Critical damping: $x(t) = v_0 t e^(-Gamma t)$
+3. Underdamping: $x(t) = v_0/mu e^(-Gamma t) sin(mu t)$
+
+where $beta = sqrt(Gamma^2 - omega_0^2)$ and $mu = sqrt(omega_0^2 - Gamma^2)$. $Gamma = gamma/(2m)$ and $omega_0^2 = k/m$.
