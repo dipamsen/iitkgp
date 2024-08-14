@@ -57,12 +57,12 @@ table td {
 }
 
 table tr:nth-child(even) td {
-  background-color: #f4f4f4;
+  background-color: #e4e4e4;
 }
-
+/* 
 table tr:hover td {
   background-color: #e9e9e9;
-}
+} */
 
 a {
   color: #3401ff;
@@ -75,4 +75,5 @@ a:hover {
 
 small {
   color: #5b5b5b;
+  font-size: 0.7em;
 }
