@@ -77,7 +77,7 @@ function App() {
     : undefined;
 
   return (
-    <Container maxWidth="lg" sx={{ marginTop: "20px" }}>
+    <Container maxWidth="lg" sx={{ marginTop: "20px", flex: 1 }}>
       <Typography variant="h3">IIT KGP - Curriculum Explorer</Typography>
 
       {data.length === 0 ? (
@@ -230,21 +230,6 @@ function App() {
           )}
         </>
       )}
-      <Box component="footer" sx={{ mt: "auto", py: 2 }}>
-        <Container maxWidth="sm" sx={{ textAlign: "center" }}>
-          <Typography variant="body2" color="textSecondary">
-            created by
-            <Link
-              href="https://github.com/dipamsen"
-              target="_blank"
-              rel="noreferrer"
-              sx={{ ml: 1 }}
-            >
-              dipamsen
-            </Link>
-          </Typography>
-        </Container>
-      </Box>
     </Container>
   );
 }
