@@ -1,0 +1,15 @@
+{
+  "name": "iitkgp-coursework",
+  "version": "1.0.0",
+  "description": "Coursework",
+  "type": "module",
+  "scripts": {
+    "fetch-curr": "node scripts/fetch-curriculum.js"
+  },
+  "keywords": [],
+  "author": "Dipam Sen",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0"
+  }
+}

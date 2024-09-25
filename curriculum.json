@@ -1,0 +1,5936 @@
+[
+  {
+    "name": "Aerospace Engineering",
+    "courses": [
+      {
+        "courseName": "AEROSPACE ENGINEERING(B.TECH 4Y)",
+        "code": "AE",
+        "curriculum": [
+          {
+            "name": "Semester : 1",
+            "subjects": [
+              {
+                "subType": "Depth CORE C",
+                "subCode": "GE10001",
+                "subName": "GENDER SENSITIZATION",
+                "LTP": [
+                  0,
+                  0,
+                  0
+                ],
+                "credits": 0
+              },
+              {
+                "subType": "Depth CORE I",
+                "subCode": "MA11003",
+                "subName": "ADVANCED CALCULUS",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/MA11003.pdf"
+              },
+              {
+                "subType": "Depth CORE II",
+                "subCode": "EC21201",
+                "subName": "BASIC ELECTRONICS",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/EC21201.pdf"
+              },
+              {
+                "subType": "Depth CORE III",
+                "subCode": "EC29201",
+                "subName": "BASIC ELECTRONICS LABORATORY",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 2,
+                "syllabus": "syllabus/EC29201.pdf"
+              },
+              {
+                "subType": "Depth CORE IV",
+                "subCode": "ME11003",
+                "subName": "BASIC ENGINEERING MECHANICS",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/ME11003.pdf"
+              },
+              {
+                "subType": "Depth CORE V",
+                "subCode": "CY11003",
+                "subName": "CHEMISTRY",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/CY11003.pdf"
+              },
+              {
+                "subType": "Depth CORE VI",
+                "subCode": "CY19003",
+                "subName": "CHEMISTRY LABORATORY",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 2,
+                "syllabus": "syllabus/CY19003.pdf"
+              },
+              {
+                "subType": "Depth CORE VII",
+                "subCode": "EA10007",
+                "subName": "EXTRA ACADEMIC ACTIVITY-I",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 1,
+                "syllabus": "syllabus/EA10007.pdf"
+              }
+            ]
+          },
+          {
+            "name": "Semester : 2",
+            "subjects": [
+              {
+                "subType": "Depth CORE IX",
+                "subCode": "CS10003",
+                "subName": "PROGRAMMING AND DATA STRUCTURES",
+                "LTP": [
+                  3,
+                  0,
+                  0
+                ],
+                "credits": 3,
+                "syllabus": "syllabus/CS10003.pdf"
+              },
+              {
+                "subType": "Depth CORE VIII",
+                "subCode": "MA11004",
+                "subName": "LINEAR ALGEBRA, NUMERICAL AND COMPLEX ANALYSIS",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/MA11004.pdf"
+              },
+              {
+                "subType": "Depth CORE X",
+                "subCode": "CS19003",
+                "subName": "PROGRAMMING AND DATA STRUCTURES LABORATORY",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 2,
+                "syllabus": "syllabus/CS19003.pdf"
+              },
+              {
+                "subType": "Depth CORE XI",
+                "subCode": "PH11003",
+                "subName": "PHYSICS OF WAVES",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/PH11003.pdf"
+              },
+              {
+                "subType": "Depth CORE XII",
+                "subCode": "PH19003",
+                "subName": "PHYSICS LABORATORY",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 2,
+                "syllabus": "syllabus/PH19003.pdf"
+              },
+              {
+                "subType": "Depth CORE XIII",
+                "subCode": "CE13003",
+                "subName": "ENGINEERING DRAWING AND COMPUTER GRAPHICS",
+                "LTP": [
+                  1,
+                  0,
+                  3
+                ],
+                "credits": 3,
+                "syllabus": "syllabus/CE13003.pdf"
+              },
+              {
+                "subType": "Depth CORE XIV",
+                "subCode": "EE11003",
+                "subName": "ELECTRICAL TECHNOLOGY",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/EE11003.pdf"
+              },
+              {
+                "subType": "Depth CORE XV",
+                "subCode": "EA10008",
+                "subName": "EXTRA ACADEMIC ACTIVITY-II",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 1,
+                "syllabus": "syllabus/EA10008.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "courseName": "AEROSPACE ENGINEERING (M.TECH DUAL 5Y)",
+        "code": "AE1",
+        "curriculum": []
+      },
+      {
+        "courseName": "AEROSPACE ENGINEERING/ARTIFICIAL INTELLIGENCE MACHINE LEARNING AND APPLICATIONS",
+        "code": "AEA",
+        "curriculum": []
+      },
+      {
+        "courseName": "AEROSPACE ENGINEERING/FINANCIAL ENGINEERING",
+        "code": "AEJ",
+        "curriculum": []
+      },
+      {
+        "courseName": "AEROSPACE ENGINEERING/ENGINEERING ENTREPRENEURSHIP",
+        "code": "AEK",
+        "curriculum": []
+      }
+    ]
+  },
+  {
+    "name": "Agricultural and Food Engineering",
+    "courses": [
+      {
+        "courseName": "AGRICULTURAL AND FOOD ENGG.(B.TECH 4Y)",
+        "code": "AG",
+        "curriculum": [
+          {
+            "name": "Semester : 1",
+            "subjects": [
+              {
+                "subType": "Depth CORE C",
+                "subCode": "GE10001",
+                "subName": "GENDER SENSITIZATION",
+                "LTP": [
+                  0,
+                  0,
+                  0
+                ],
+                "credits": 0
+              },
+              {
+                "subType": "Depth CORE I",
+                "subCode": "MA11003",
+                "subName": "ADVANCED CALCULUS",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/MA11003.pdf"
+              },
+              {
+                "subType": "Depth CORE II",
+                "subCode": "CE13003",
+                "subName": "ENGINEERING DRAWING AND COMPUTER GRAPHICS",
+                "LTP": [
+                  1,
+                  0,
+                  3
+                ],
+                "credits": 3,
+                "syllabus": "syllabus/CE13003.pdf"
+              },
+              {
+                "subType": "Depth CORE III",
+                "subCode": "CY11003",
+                "subName": "CHEMISTRY",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/CY11003.pdf"
+              },
+              {
+                "subType": "Depth CORE IV",
+                "subCode": "CY19003",
+                "subName": "CHEMISTRY LABORATORY",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 2,
+                "syllabus": "syllabus/CY19003.pdf"
+              },
+              {
+                "subType": "Depth CORE V",
+                "subCode": "EC21201",
+                "subName": "BASIC ELECTRONICS",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/EC21201.pdf"
+              },
+              {
+                "subType": "Depth CORE VI",
+                "subCode": "EC29201",
+                "subName": "BASIC ELECTRONICS LABORATORY",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 2,
+                "syllabus": "syllabus/EC29201.pdf"
+              },
+              {
+                "subType": "Depth CORE VII",
+                "subCode": "EA10007",
+                "subName": "EXTRA ACADEMIC ACTIVITY-I",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 1,
+                "syllabus": "syllabus/EA10007.pdf"
+              }
+            ]
+          },
+          {
+            "name": "Semester : 2",
+            "subjects": [
+              {
+                "subType": "Depth CORE IX",
+                "subCode": "CS10003",
+                "subName": "PROGRAMMING AND DATA STRUCTURES",
+                "LTP": [
+                  3,
+                  0,
+                  0
+                ],
+                "credits": 3,
+                "syllabus": "syllabus/CS10003.pdf"
+              },
+              {
+                "subType": "Depth CORE VIII",
+                "subCode": "MA11004",
+                "subName": "LINEAR ALGEBRA, NUMERICAL AND COMPLEX ANALYSIS",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/MA11004.pdf"
+              },
+              {
+                "subType": "Depth CORE X",
+                "subCode": "CS19003",
+                "subName": "PROGRAMMING AND DATA STRUCTURES LABORATORY",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 2,
+                "syllabus": "syllabus/CS19003.pdf"
+              },
+              {
+                "subType": "Depth CORE XI",
+                "subCode": "PH11003",
+                "subName": "PHYSICS OF WAVES",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/PH11003.pdf"
+              },
+              {
+                "subType": "Depth CORE XII",
+                "subCode": "PH19003",
+                "subName": "PHYSICS LABORATORY",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 2,
+                "syllabus": "syllabus/PH19003.pdf"
+              },
+              {
+                "subType": "Depth CORE XIII",
+                "subCode": "ME11003",
+                "subName": "BASIC ENGINEERING MECHANICS",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/ME11003.pdf"
+              },
+              {
+                "subType": "Depth CORE XIV",
+                "subCode": "EE11003",
+                "subName": "ELECTRICAL TECHNOLOGY",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/EE11003.pdf"
+              },
+              {
+                "subType": "Depth CORE XV",
+                "subCode": "EA10008",
+                "subName": "EXTRA ACADEMIC ACTIVITY-II",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 1,
+                "syllabus": "syllabus/EA10008.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "courseName": "AGR. FOOD ENGG.FOOD PROCESS ENGG. (M.TECH DUAL 5Y)",
+        "code": "AG2",
+        "curriculum": []
+      },
+      {
+        "courseName": "AGR. FOOD ENGG.FARM MACHINERY AND POWER(M.TECH DUAL 5Y)",
+        "code": "AG4",
+        "curriculum": []
+      },
+      {
+        "courseName": "AGR. FOOD ENGG.AQUACULTURAL ENGG.(M.TECH DUAL 5Y)",
+        "code": "AG5",
+        "curriculum": []
+      },
+      {
+        "courseName": "AGR. FOOD ENGG.AGRI SYSTEMS AND MGMT.(M.TECH DUAL 5Y)",
+        "code": "AG6",
+        "curriculum": []
+      },
+      {
+        "courseName": "AGR. FOOD ENGG. LAND AND WATER RESOURCES ENGG.(M.TECH DUAL 5Y)",
+        "code": "AG8",
+        "curriculum": []
+      },
+      {
+        "courseName": "AGRICULTURAL AND FOOD ENGINEERING/ARTIFICIAL INTELLIGENCE MACHINE LEARNING AND APPLICATIONS",
+        "code": "AGA",
+        "curriculum": []
+      },
+      {
+        "courseName": "AGRICULTURAL AND FOOD ENGINEERING  DUAL DEGREE IN AVAILABE SPECIALISATION. (M.TECH DUAL 5Y)",
+        "code": "AGD",
+        "curriculum": []
+      },
+      {
+        "courseName": "AGRICULTURAL AND FOOD ENGINEERING/FINANCIAL ENGINEERING",
+        "code": "AGJ",
+        "curriculum": []
+      },
+      {
+        "courseName": "AGRICULTURAL AND FOOD ENGINEERING/ENGINEERING ENTREPRENEURSHIP",
+        "code": "AGK",
+        "curriculum": []
+      }
+    ]
+  },
+  {
+    "name": "Architecture and Regional Planning",
+    "courses": [
+      {
+        "courseName": "ARCHITECTURE (B.ARCH 5Y)",
+        "code": "AR",
+        "curriculum": [
+          {
+            "name": "Semester : 1",
+            "subjects": [
+              {
+                "subType": "Depth CORE C",
+                "subCode": "GE10001",
+                "subName": "GENDER SENSITIZATION",
+                "LTP": [
+                  0,
+                  0,
+                  0
+                ],
+                "credits": 0
+              },
+              {
+                "subType": "Depth CORE I",
+                "subCode": "AR13301",
+                "subName": "BASIC DESIGN 1",
+                "LTP": [
+                  1,
+                  0,
+                  5
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/AR13301.pdf"
+              },
+              {
+                "subType": "Depth CORE II",
+                "subCode": "AR13305",
+                "subName": "GRAPHICS AND VISUAL COMMUNICATION",
+                "LTP": [
+                  1,
+                  0,
+                  3
+                ],
+                "credits": 3,
+                "syllabus": "syllabus/AR13305.pdf"
+              },
+              {
+                "subType": "Depth CORE III",
+                "subCode": "AR13307",
+                "subName": "DESCRIPTIVE GEOMETRY 1",
+                "LTP": [
+                  1,
+                  0,
+                  3
+                ],
+                "credits": 3,
+                "syllabus": "syllabus/AR13307.pdf"
+              },
+              {
+                "subType": "Depth CORE IV",
+                "subCode": "AR10301",
+                "subName": "INTRODUCTION TO ARCHITECTURE",
+                "LTP": [
+                  3,
+                  0,
+                  0
+                ],
+                "credits": 3,
+                "syllabus": "syllabus/AR10301.pdf"
+              },
+              {
+                "subType": "Depth CORE V",
+                "subCode": "AR10302",
+                "subName": "HISTORY OF ARCHITECTURE 1",
+                "LTP": [
+                  3,
+                  0,
+                  0
+                ],
+                "credits": 3,
+                "syllabus": "syllabus/AR10302.pdf"
+              },
+              {
+                "subType": "Depth CORE VI",
+                "subCode": "AR10304",
+                "subName": "BUILDING MATERIALS",
+                "LTP": [
+                  3,
+                  0,
+                  0
+                ],
+                "credits": 3,
+                "syllabus": "syllabus/AR10304.pdf"
+              },
+              {
+                "subType": "Depth CORE VII",
+                "subCode": "EA10007",
+                "subName": "EXTRA ACADEMIC ACTIVITY-I",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 1,
+                "syllabus": "syllabus/EA10007.pdf"
+              }
+            ]
+          },
+          {
+            "name": "Semester : 2",
+            "subjects": [
+              {
+                "subType": "Depth CORE IX",
+                "subCode": "AR13304",
+                "subName": "DESCRIPTIVE GEOMETRY 2",
+                "LTP": [
+                  1,
+                  0,
+                  3
+                ],
+                "credits": 3,
+                "syllabus": "syllabus/AR13304.pdf"
+              },
+              {
+                "subType": "Depth CORE VIII",
+                "subCode": "AR13302",
+                "subName": "BASIC DESIGN 2",
+                "LTP": [
+                  1,
+                  0,
+                  5
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/AR13302.pdf"
+              },
+              {
+                "subType": "Depth CORE X",
+                "subCode": "AR23304",
+                "subName": "INDIGENOUS TECHNOLOGIES AND INNOVATIONS WORKSHOP",
+                "LTP": [
+                  1,
+                  0,
+                  3
+                ],
+                "credits": 3,
+                "syllabus": "syllabus/AR23304.pdf"
+              },
+              {
+                "subType": "Depth CORE XI",
+                "subCode": "AR20201",
+                "subName": "HISTORY OF ARCHITECTURE II",
+                "LTP": [
+                  3,
+                  0,
+                  0
+                ],
+                "credits": 3,
+                "syllabus": "syllabus/AR20201.pdf"
+              },
+              {
+                "subType": "Depth CORE XII",
+                "subCode": "AR20203",
+                "subName": "ADVANCED BUILDING MATERIALS AND COMPOSITES",
+                "LTP": [
+                  3,
+                  0,
+                  0
+                ],
+                "credits": 3,
+                "syllabus": "syllabus/AR20203.pdf"
+              },
+              {
+                "subType": "Depth CORE XIII",
+                "subCode": "AR20205",
+                "subName": "BUILDING CONSTRUCTION",
+                "LTP": [
+                  3,
+                  0,
+                  0
+                ],
+                "credits": 3,
+                "syllabus": "syllabus/AR20205.pdf"
+              },
+              {
+                "subType": "Depth CORE XIV",
+                "subCode": "AR11002",
+                "subName": "STRUCTURAL MECHANICS",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/AR11002.pdf"
+              },
+              {
+                "subType": "Depth CORE XV",
+                "subCode": "EA10008",
+                "subName": "EXTRA ACADEMIC ACTIVITY-II",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 1,
+                "syllabus": "syllabus/EA10008.pdf"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Artificial Intelligence",
+    "courses": [
+      {
+        "courseName": "ARTIFICIAL INTELLIGENCE(B.TECH 4Y)",
+        "code": "AI",
+        "curriculum": [
+          {
+            "name": "Semester : 1",
+            "subjects": [
+              {
+                "subType": "Depth CORE C",
+                "subCode": "GE10001",
+                "subName": "GENDER SENSITIZATION",
+                "LTP": [
+                  0,
+                  0,
+                  0
+                ],
+                "credits": 0
+              },
+              {
+                "subType": "Depth CORE I",
+                "subCode": "MA11003",
+                "subName": "ADVANCED CALCULUS",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/MA11003.pdf"
+              },
+              {
+                "subType": "Depth CORE II",
+                "subCode": "CS10003",
+                "subName": "PROGRAMMING AND DATA STRUCTURES",
+                "LTP": [
+                  3,
+                  0,
+                  0
+                ],
+                "credits": 3,
+                "syllabus": "syllabus/CS10003.pdf"
+              },
+              {
+                "subType": "Depth CORE III",
+                "subCode": "CS19003",
+                "subName": "PROGRAMMING AND DATA STRUCTURES LABORATORY",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 2,
+                "syllabus": "syllabus/CS19003.pdf"
+              },
+              {
+                "subType": "Depth CORE IV",
+                "subCode": "ME11003",
+                "subName": "BASIC ENGINEERING MECHANICS",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/ME11003.pdf"
+              },
+              {
+                "subType": "Depth CORE V",
+                "subCode": "PH11003",
+                "subName": "PHYSICS OF WAVES",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/PH11003.pdf"
+              },
+              {
+                "subType": "Depth CORE VI",
+                "subCode": "PH19003",
+                "subName": "PHYSICS LABORATORY",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 2,
+                "syllabus": "syllabus/PH19003.pdf"
+              },
+              {
+                "subType": "Depth CORE VII",
+                "subCode": "CE13003",
+                "subName": "ENGINEERING DRAWING AND COMPUTER GRAPHICS",
+                "LTP": [
+                  1,
+                  0,
+                  3
+                ],
+                "credits": 3,
+                "syllabus": "syllabus/CE13003.pdf"
+              },
+              {
+                "subType": "Depth CORE VIII",
+                "subCode": "EA10007",
+                "subName": "EXTRA ACADEMIC ACTIVITY-I",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 1,
+                "syllabus": "syllabus/EA10007.pdf"
+              }
+            ]
+          },
+          {
+            "name": "Semester : 2",
+            "subjects": [
+              {
+                "subType": "Depth CORE IX",
+                "subCode": "MA11004",
+                "subName": "LINEAR ALGEBRA, NUMERICAL AND COMPLEX ANALYSIS",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/MA11004.pdf"
+              },
+              {
+                "subType": "Depth CORE X",
+                "subCode": "EE11003",
+                "subName": "ELECTRICAL TECHNOLOGY",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/EE11003.pdf"
+              },
+              {
+                "subType": "Depth CORE XI",
+                "subCode": "EC21201",
+                "subName": "BASIC ELECTRONICS",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/EC21201.pdf"
+              },
+              {
+                "subType": "Depth CORE XII",
+                "subCode": "EC29201",
+                "subName": "BASIC ELECTRONICS LABORATORY",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 2,
+                "syllabus": "syllabus/EC29201.pdf"
+              },
+              {
+                "subType": "Depth CORE XIII",
+                "subCode": "AI11002",
+                "subName": "INTRODUCTION TO DATA SCIENCE",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/AI11002.pdf"
+              },
+              {
+                "subType": "Depth CORE XIV",
+                "subCode": "AI19002",
+                "subName": "SYSTEM PROGRAMMING LABORATORY",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 2,
+                "syllabus": "syllabus/AI19002.pdf"
+              },
+              {
+                "subType": "Depth CORE XV",
+                "subCode": "EA10008",
+                "subName": "EXTRA ACADEMIC ACTIVITY-II",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 1,
+                "syllabus": "syllabus/EA10008.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "courseName": "BTECH IN PARENT DEPARTMENT/MTECH IN ARTIFICIAL INTELLIGENCE",
+        "code": "AIX",
+        "curriculum": []
+      }
+    ]
+  },
+  {
+    "name": "Bio Science",
+    "courses": [
+      {
+        "courseName": "CHEMICAL AND MOLECULAR BIOLOGY(2YR. M.SC.)",
+        "code": "BS4",
+        "curriculum": []
+      }
+    ]
+  },
+  {
+    "name": "Bioscience and Biotechnology",
+    "courses": [
+      {
+        "courseName": "BIOTECH. AND BIOCHEMICAL ENGG. (B.TECH 4Y)",
+        "code": "BT",
+        "curriculum": [
+          {
+            "name": "Semester : 1",
+            "subjects": [
+              {
+                "subType": "Depth CORE C",
+                "subCode": "GE10001",
+                "subName": "GENDER SENSITIZATION",
+                "LTP": [
+                  0,
+                  0,
+                  0
+                ],
+                "credits": 0
+              },
+              {
+                "subType": "Depth CORE I",
+                "subCode": "MA11003",
+                "subName": "ADVANCED CALCULUS",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/MA11003.pdf"
+              },
+              {
+                "subType": "Depth CORE II",
+                "subCode": "BT10001",
+                "subName": "SCIENCE OF LIVING SYSTEM",
+                "LTP": [
+                  3,
+                  0,
+                  0
+                ],
+                "credits": 3,
+                "syllabus": "syllabus/BT10001.pdf"
+              },
+              {
+                "subType": "Depth CORE III",
+                "subCode": "CY11003",
+                "subName": "CHEMISTRY",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/CY11003.pdf"
+              },
+              {
+                "subType": "Depth CORE IV",
+                "subCode": "CY19003",
+                "subName": "CHEMISTRY LABORATORY",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 2,
+                "syllabus": "syllabus/CY19003.pdf"
+              },
+              {
+                "subType": "Depth CORE V",
+                "subCode": "EC21201",
+                "subName": "BASIC ELECTRONICS",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/EC21201.pdf"
+              },
+              {
+                "subType": "Depth CORE VI",
+                "subCode": "EC29201",
+                "subName": "BASIC ELECTRONICS LABORATORY",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 2,
+                "syllabus": "syllabus/EC29201.pdf"
+              },
+              {
+                "subType": "Depth CORE VII",
+                "subCode": "BT19001",
+                "subName": "BASIC BIOSENSOR LABORATORY",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 2,
+                "syllabus": "syllabus/BT19001.pdf"
+              },
+              {
+                "subType": "Depth CORE VIII",
+                "subCode": "EA10007",
+                "subName": "EXTRA ACADEMIC ACTIVITY-I",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 1,
+                "syllabus": "syllabus/EA10007.pdf"
+              }
+            ]
+          },
+          {
+            "name": "Semester : 2",
+            "subjects": [
+              {
+                "subType": "Depth CORE IX",
+                "subCode": "MA11004",
+                "subName": "LINEAR ALGEBRA, NUMERICAL AND COMPLEX ANALYSIS",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/MA11004.pdf"
+              },
+              {
+                "subType": "Depth CORE X",
+                "subCode": "CS10003",
+                "subName": "PROGRAMMING AND DATA STRUCTURES",
+                "LTP": [
+                  3,
+                  0,
+                  0
+                ],
+                "credits": 3,
+                "syllabus": "syllabus/CS10003.pdf"
+              },
+              {
+                "subType": "Depth CORE XI",
+                "subCode": "CS19003",
+                "subName": "PROGRAMMING AND DATA STRUCTURES LABORATORY",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 2,
+                "syllabus": "syllabus/CS19003.pdf"
+              },
+              {
+                "subType": "Depth CORE XII",
+                "subCode": "BT11002",
+                "subName": "BIOCHEMISTRY",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/BT11002.pdf"
+              },
+              {
+                "subType": "Depth CORE XIII",
+                "subCode": "BT19002",
+                "subName": "BIOCHEMISTRY LABORATORY",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 2,
+                "syllabus": "syllabus/BT19002.pdf"
+              },
+              {
+                "subType": "Depth CORE XIV",
+                "subCode": "PH11003",
+                "subName": "PHYSICS OF WAVES",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/PH11003.pdf"
+              },
+              {
+                "subType": "Depth CORE XV",
+                "subCode": "PH19003",
+                "subName": "PHYSICS LABORATORY",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 2,
+                "syllabus": "syllabus/PH19003.pdf"
+              },
+              {
+                "subType": "Depth CORE XVI",
+                "subCode": "EA10008",
+                "subName": "EXTRA ACADEMIC ACTIVITY-II",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 1,
+                "syllabus": "syllabus/EA10008.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "courseName": "BIOTECHNOLOGY AND BIOCHEM. ENGG. (M.TECH DUAL 5Y)",
+        "code": "BT1",
+        "curriculum": []
+      },
+      {
+        "courseName": "CHEMICAL AND MOLECULAR BIOLOGY(2YR. M.SC.)",
+        "code": "BT4",
+        "curriculum": []
+      },
+      {
+        "courseName": "BIOTECHNOLOGY AND BIOCHEMICAL ENGINEERING/ARTIFICIAL INTELLIGENCE MACHINE LEARNING AND APPLICATIONS",
+        "code": "BTA",
+        "curriculum": []
+      },
+      {
+        "courseName": "BIOTECHNOLOGY AND BIOCHEMICAL ENGINEERING/FINANCIAL ENGINEERING",
+        "code": "BTJ",
+        "curriculum": []
+      },
+      {
+        "courseName": "BIOTECHNOLOGY AND BIOCHEMICAL ENGINEERING/ENGINEERING ENTREPRENEURSHIP",
+        "code": "BTK",
+        "curriculum": []
+      }
+    ]
+  },
+  {
+    "name": "Chemical Engineering",
+    "courses": [
+      {
+        "courseName": "CHEMICAL ENGG. (B.TECH 4Y)",
+        "code": "CH",
+        "curriculum": [
+          {
+            "name": "Semester : 1",
+            "subjects": [
+              {
+                "subType": "Depth CORE C",
+                "subCode": "GE10001",
+                "subName": "GENDER SENSITIZATION",
+                "LTP": [
+                  0,
+                  0,
+                  0
+                ],
+                "credits": 0
+              },
+              {
+                "subType": "Depth CORE I",
+                "subCode": "MA11003",
+                "subName": "ADVANCED CALCULUS",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/MA11003.pdf"
+              },
+              {
+                "subType": "Depth CORE II",
+                "subCode": "EC21201",
+                "subName": "BASIC ELECTRONICS",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/EC21201.pdf"
+              },
+              {
+                "subType": "Depth CORE III",
+                "subCode": "EC29201",
+                "subName": "BASIC ELECTRONICS LABORATORY",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 2,
+                "syllabus": "syllabus/EC29201.pdf"
+              },
+              {
+                "subType": "Depth CORE IV",
+                "subCode": "ME11003",
+                "subName": "BASIC ENGINEERING MECHANICS",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/ME11003.pdf"
+              },
+              {
+                "subType": "Depth CORE V",
+                "subCode": "EN19003",
+                "subName": "ENGINEERING LABORATORY",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 2,
+                "syllabus": "syllabus/EN19003.pdf"
+              },
+              {
+                "subType": "Depth CORE VI",
+                "subCode": "CH21203",
+                "subName": "CHEMICAL PROCESS CALCULATIONS",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/CH21203.pdf"
+              },
+              {
+                "subType": "Depth CORE VII",
+                "subCode": "EA10007",
+                "subName": "EXTRA ACADEMIC ACTIVITY-I",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 1,
+                "syllabus": "syllabus/EA10007.pdf"
+              }
+            ]
+          },
+          {
+            "name": "Semester : 2",
+            "subjects": [
+              {
+                "subType": "Depth CORE IX",
+                "subCode": "CS10003",
+                "subName": "PROGRAMMING AND DATA STRUCTURES",
+                "LTP": [
+                  3,
+                  0,
+                  0
+                ],
+                "credits": 3,
+                "syllabus": "syllabus/CS10003.pdf"
+              },
+              {
+                "subType": "Depth CORE VIII",
+                "subCode": "MA11004",
+                "subName": "LINEAR ALGEBRA, NUMERICAL AND COMPLEX ANALYSIS",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/MA11004.pdf"
+              },
+              {
+                "subType": "Depth CORE X",
+                "subCode": "CS19003",
+                "subName": "PROGRAMMING AND DATA STRUCTURES LABORATORY",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 2,
+                "syllabus": "syllabus/CS19003.pdf"
+              },
+              {
+                "subType": "Depth CORE XI",
+                "subCode": "EE11003",
+                "subName": "ELECTRICAL TECHNOLOGY",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/EE11003.pdf"
+              },
+              {
+                "subType": "Depth CORE XII",
+                "subCode": "CE13003",
+                "subName": "ENGINEERING DRAWING AND COMPUTER GRAPHICS",
+                "LTP": [
+                  1,
+                  0,
+                  3
+                ],
+                "credits": 3,
+                "syllabus": "syllabus/CE13003.pdf"
+              },
+              {
+                "subType": "Depth CORE XIII",
+                "subCode": "CH21201",
+                "subName": "CHEMICAL ENGINEERING THERMODYNAMICS",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/CH21201.pdf"
+              },
+              {
+                "subType": "Depth CORE XIV",
+                "subCode": "CH29201",
+                "subName": "FUEL LABORATORY",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 2,
+                "syllabus": "syllabus/CH29201.pdf"
+              },
+              {
+                "subType": "Depth CORE XV",
+                "subCode": "EA10008",
+                "subName": "EXTRA ACADEMIC ACTIVITY-II",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 1,
+                "syllabus": "syllabus/EA10008.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "courseName": "CHEMICAL ENGG.(M.TECH DUAL 5Y)",
+        "code": "CH1",
+        "curriculum": []
+      },
+      {
+        "courseName": "CHEMICAL ENGINEERING/ARTIFICIAL INTELLIGENCE MACHINE LEARNING AND APPLICATIONS",
+        "code": "CHA",
+        "curriculum": []
+      },
+      {
+        "courseName": "CHEMICAL ENGINEERING/FINANCIAL ENGINEERING",
+        "code": "CHJ",
+        "curriculum": []
+      },
+      {
+        "courseName": "CHEMICAL ENGINEERING/ENGINEERING ENTREPRENEURSHIP",
+        "code": "CHK",
+        "curriculum": []
+      },
+      {
+        "courseName": "CHEMICAL ENGINEERING/PETROLEUM ENGINEERING",
+        "code": "CHP",
+        "curriculum": []
+      }
+    ]
+  },
+  {
+    "name": "Chemistry",
+    "courses": [
+      {
+        "courseName": "CHEMISTRY (M.SC. 5Y)",
+        "code": "CY1",
+        "curriculum": []
+      },
+      {
+        "courseName": "CHEMISTRY (B.S.4Y)",
+        "code": "CY2",
+        "curriculum": [
+          {
+            "name": "Semester : 1",
+            "subjects": [
+              {
+                "subType": "Depth CORE C",
+                "subCode": "GE10001",
+                "subName": "GENDER SENSITIZATION",
+                "LTP": [
+                  0,
+                  0,
+                  0
+                ],
+                "credits": 0
+              },
+              {
+                "subType": "Depth CORE I",
+                "subCode": "MA11003",
+                "subName": "ADVANCED CALCULUS",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/MA11003.pdf"
+              },
+              {
+                "subType": "Depth CORE II",
+                "subCode": "CY19003",
+                "subName": "CHEMISTRY LABORATORY",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 2,
+                "syllabus": "syllabus/CY19003.pdf"
+              },
+              {
+                "subType": "Depth CORE III",
+                "subCode": "PH11003",
+                "subName": "PHYSICS OF WAVES",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/PH11003.pdf"
+              },
+              {
+                "subType": "Depth CORE IV",
+                "subCode": "PH19003",
+                "subName": "PHYSICS LABORATORY",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 2,
+                "syllabus": "syllabus/PH19003.pdf"
+              },
+              {
+                "subType": "Depth CORE V",
+                "subCode": "CY10001",
+                "subName": "ENVIRONMENTAL CHEMISTRY",
+                "LTP": [
+                  2,
+                  0,
+                  0
+                ],
+                "credits": 2,
+                "syllabus": "syllabus/CY10001.pdf"
+              },
+              {
+                "subType": "Depth CORE VI",
+                "subCode": "CY11005",
+                "subName": "FUNDAMENTALS OF INORGANIC CHEMISTRY",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/CY11005.pdf"
+              },
+              {
+                "subType": "Depth CORE VII",
+                "subCode": "CY11007",
+                "subName": "INTRODUCTION TO ORGANIC CHEMISTRY",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/CY11007.pdf"
+              },
+              {
+                "subType": "Depth CORE VIII",
+                "subCode": "EA10007",
+                "subName": "EXTRA ACADEMIC ACTIVITY-I",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 1,
+                "syllabus": "syllabus/EA10007.pdf"
+              }
+            ]
+          },
+          {
+            "name": "Semester : 2",
+            "subjects": [
+              {
+                "subType": "Depth CORE IX",
+                "subCode": "MA11004",
+                "subName": "LINEAR ALGEBRA, NUMERICAL AND COMPLEX ANALYSIS",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/MA11004.pdf"
+              },
+              {
+                "subType": "Depth CORE X",
+                "subCode": "CY11002",
+                "subName": "THERMODYNAMICS AND KINETICS",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/CY11002.pdf"
+              },
+              {
+                "subType": "Depth CORE XI",
+                "subCode": "CE13003",
+                "subName": "ENGINEERING DRAWING AND COMPUTER GRAPHICS",
+                "LTP": [
+                  1,
+                  0,
+                  3
+                ],
+                "credits": 3,
+                "syllabus": "syllabus/CE13003.pdf"
+              },
+              {
+                "subType": "Depth CORE XII",
+                "subCode": "CS10003",
+                "subName": "PROGRAMMING AND DATA STRUCTURES",
+                "LTP": [
+                  3,
+                  0,
+                  0
+                ],
+                "credits": 3,
+                "syllabus": "syllabus/CS10003.pdf"
+              },
+              {
+                "subType": "Depth CORE XIII",
+                "subCode": "CS19003",
+                "subName": "PROGRAMMING AND DATA STRUCTURES LABORATORY",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 2,
+                "syllabus": "syllabus/CS19003.pdf"
+              },
+              {
+                "subType": "Depth CORE XIV",
+                "subCode": "EC21201",
+                "subName": "BASIC ELECTRONICS",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/EC21201.pdf"
+              },
+              {
+                "subType": "Depth CORE XV",
+                "subCode": "EC29201",
+                "subName": "BASIC ELECTRONICS LABORATORY",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 2,
+                "syllabus": "syllabus/EC29201.pdf"
+              },
+              {
+                "subType": "Depth CORE XVI",
+                "subCode": "EA10008",
+                "subName": "EXTRA ACADEMIC ACTIVITY-II",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 1,
+                "syllabus": "syllabus/EA10008.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "courseName": "CHEMISTRY (BS-MS 5Y)",
+        "code": "CY3",
+        "curriculum": []
+      },
+      {
+        "courseName": "CHEMISTRY (2YR. M.SC.)",
+        "code": "CY4",
+        "curriculum": []
+      },
+      {
+        "courseName": "CHEMISTRY/ARTIFICIAL INTELLIGENCE MACHINE LEARNING AND APPLICATIONS",
+        "code": "CYA",
+        "curriculum": []
+      }
+    ]
+  },
+  {
+    "name": "Civil Engineering",
+    "courses": [
+      {
+        "courseName": "CIVIL ENGG. (B.TECH 4Y)",
+        "code": "CE",
+        "curriculum": [
+          {
+            "name": "Semester : 1",
+            "subjects": [
+              {
+                "subType": "Depth CORE C",
+                "subCode": "GE10001",
+                "subName": "GENDER SENSITIZATION",
+                "LTP": [
+                  0,
+                  0,
+                  0
+                ],
+                "credits": 0
+              },
+              {
+                "subType": "Depth CORE I",
+                "subCode": "MA11003",
+                "subName": "ADVANCED CALCULUS",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/MA11003.pdf"
+              },
+              {
+                "subType": "Depth CORE II",
+                "subCode": "CS10003",
+                "subName": "PROGRAMMING AND DATA STRUCTURES",
+                "LTP": [
+                  3,
+                  0,
+                  0
+                ],
+                "credits": 3,
+                "syllabus": "syllabus/CS10003.pdf"
+              },
+              {
+                "subType": "Depth CORE III",
+                "subCode": "CS19003",
+                "subName": "PROGRAMMING AND DATA STRUCTURES LABORATORY",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 2,
+                "syllabus": "syllabus/CS19003.pdf"
+              },
+              {
+                "subType": "Depth CORE IV",
+                "subCode": "CE10001",
+                "subName": "ENVIRONMENTAL SCIENCE AND ENGINEERING",
+                "LTP": [
+                  3,
+                  0,
+                  0
+                ],
+                "credits": 3,
+                "syllabus": "syllabus/CE10001.pdf"
+              },
+              {
+                "subType": "Depth CORE V",
+                "subCode": "CE11001",
+                "subName": "ENGINEERING MECHANICS",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/CE11001.pdf"
+              },
+              {
+                "subType": "Depth CORE VI",
+                "subCode": "CE13005",
+                "subName": "ENGINEERING DRAWING AND VISUALIZATION",
+                "LTP": [
+                  1,
+                  0,
+                  3
+                ],
+                "credits": 3,
+                "syllabus": "syllabus/CE13005.pdf"
+              },
+              {
+                "subType": "Depth CORE VII",
+                "subCode": "EA10007",
+                "subName": "EXTRA ACADEMIC ACTIVITY-I",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 1,
+                "syllabus": "syllabus/EA10007.pdf"
+              }
+            ]
+          },
+          {
+            "name": "Semester : 2",
+            "subjects": [
+              {
+                "subType": "Depth CORE IX",
+                "subCode": "CE10002",
+                "subName": "CIVIL ENGINEERING AND SUSTAINABILITY",
+                "LTP": [
+                  3,
+                  0,
+                  0
+                ],
+                "credits": 3,
+                "syllabus": "syllabus/CE10002.pdf"
+              },
+              {
+                "subType": "Depth CORE VIII",
+                "subCode": "MA11004",
+                "subName": "LINEAR ALGEBRA, NUMERICAL AND COMPLEX ANALYSIS",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/MA11004.pdf"
+              },
+              {
+                "subType": "Depth CORE X",
+                "subCode": "CE11002",
+                "subName": "STRENGTH OF MATERIALS",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/CE11002.pdf"
+              },
+              {
+                "subType": "Depth CORE XI",
+                "subCode": "CE11004",
+                "subName": "INTRODUCTORY FLUID MECHANICS",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/CE11004.pdf"
+              },
+              {
+                "subType": "Depth CORE XII",
+                "subCode": "CE19004",
+                "subName": "NUMERICAL COMPUTATIONAL LABORATORY",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 2,
+                "syllabus": "syllabus/CE19004.pdf"
+              },
+              {
+                "subType": "Depth CORE XIII",
+                "subCode": "CE13006",
+                "subName": "INTERNET OF THINGS IN CIVIL ENGINEERING SYSTEMS",
+                "LTP": [
+                  1,
+                  0,
+                  3
+                ],
+                "credits": 3,
+                "syllabus": "syllabus/CE13006.pdf"
+              },
+              {
+                "subType": "Depth CORE XIV",
+                "subCode": "CE19002",
+                "subName": "MECHANICS LABORATORY",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 2,
+                "syllabus": "syllabus/CE19002.pdf"
+              },
+              {
+                "subType": "Depth CORE XV",
+                "subCode": "EA10008",
+                "subName": "EXTRA ACADEMIC ACTIVITY-II",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 1,
+                "syllabus": "syllabus/EA10008.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "courseName": "CIVIL ENGG. STRUCTURAL ENGG. (M.TECH DUAL5Y)",
+        "code": "CE1",
+        "curriculum": []
+      },
+      {
+        "courseName": "CIVIL ENGG. TRANSPORTATION ENGG. (M.TECH DUAL5Y)",
+        "code": "CE3",
+        "curriculum": []
+      },
+      {
+        "courseName": "CIVIL ENGG. GEOTECHNICAL ENGG. (M.TECH DUAL5Y)",
+        "code": "CE4",
+        "curriculum": []
+      },
+      {
+        "courseName": "CIVIL ENGG. HYDRAULIC AND WATER RESOURCE ENGINEERING (M.TECH DUAL5Y)",
+        "code": "CE5",
+        "curriculum": []
+      },
+      {
+        "courseName": "CIVIL ENGG. ENVIRONMENTAL ENGG. AND MANAGEMENT (M.TECH DUAL5Y)",
+        "code": "CE6",
+        "curriculum": []
+      },
+      {
+        "courseName": "CIVIL ENGINEERING/ARTIFICIAL INTELLIGENCE MACHINE LEARNING AND APPLICATIONS",
+        "code": "CEA",
+        "curriculum": []
+      },
+      {
+        "courseName": "CIVIL ENGG. DUAL DEGREE IN AVAILABE SPL. (M.TECH DUAL 5Y)",
+        "code": "CED",
+        "curriculum": []
+      },
+      {
+        "courseName": "CIVIL ENGINEERING/FINANCIAL ENGINEERING",
+        "code": "CEJ",
+        "curriculum": []
+      },
+      {
+        "courseName": "CIVIL ENGINEERING/ENGINEERING ENTREPRENEURSHIP",
+        "code": "CEK",
+        "curriculum": []
+      }
+    ]
+  },
+  {
+    "name": "Computer Science and Engineering",
+    "courses": [
+      {
+        "courseName": "COMPUTER SCIENCE AND ENGG. (B.TECH 4Y)",
+        "code": "CS",
+        "curriculum": [
+          {
+            "name": "Semester : 1",
+            "subjects": [
+              {
+                "subType": "Depth CORE C",
+                "subCode": "GE10001",
+                "subName": "GENDER SENSITIZATION",
+                "LTP": [
+                  0,
+                  0,
+                  0
+                ],
+                "credits": 0
+              },
+              {
+                "subType": "Depth CORE I",
+                "subCode": "MA11003",
+                "subName": "ADVANCED CALCULUS",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/MA11003.pdf"
+              },
+              {
+                "subType": "Depth CORE II",
+                "subCode": "CS10003",
+                "subName": "PROGRAMMING AND DATA STRUCTURES",
+                "LTP": [
+                  3,
+                  0,
+                  0
+                ],
+                "credits": 3,
+                "syllabus": "syllabus/CS10003.pdf"
+              },
+              {
+                "subType": "Depth CORE III",
+                "subCode": "CS19003",
+                "subName": "PROGRAMMING AND DATA STRUCTURES LABORATORY",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 2,
+                "syllabus": "syllabus/CS19003.pdf"
+              },
+              {
+                "subType": "Depth CORE IV",
+                "subCode": "ME11003",
+                "subName": "BASIC ENGINEERING MECHANICS",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/ME11003.pdf"
+              },
+              {
+                "subType": "Depth CORE V",
+                "subCode": "PH11003",
+                "subName": "PHYSICS OF WAVES",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/PH11003.pdf"
+              },
+              {
+                "subType": "Depth CORE VI",
+                "subCode": "PH19003",
+                "subName": "PHYSICS LABORATORY",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 2,
+                "syllabus": "syllabus/PH19003.pdf"
+              },
+              {
+                "subType": "Depth CORE VII",
+                "subCode": "EE11003",
+                "subName": "ELECTRICAL TECHNOLOGY",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/EE11003.pdf"
+              },
+              {
+                "subType": "Depth CORE VIII",
+                "subCode": "EA10007",
+                "subName": "EXTRA ACADEMIC ACTIVITY-I",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 1,
+                "syllabus": "syllabus/EA10007.pdf"
+              }
+            ]
+          },
+          {
+            "name": "Semester : 2",
+            "subjects": [
+              {
+                "subType": "Depth CORE IX",
+                "subCode": "MA11004",
+                "subName": "LINEAR ALGEBRA, NUMERICAL AND COMPLEX ANALYSIS",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/MA11004.pdf"
+              },
+              {
+                "subType": "Depth CORE X",
+                "subCode": "EC21201",
+                "subName": "BASIC ELECTRONICS",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/EC21201.pdf"
+              },
+              {
+                "subType": "Depth CORE XI",
+                "subCode": "EC29201",
+                "subName": "BASIC ELECTRONICS LABORATORY",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 2,
+                "syllabus": "syllabus/EC29201.pdf"
+              },
+              {
+                "subType": "Depth CORE XII",
+                "subCode": "CY11003",
+                "subName": "CHEMISTRY",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/CY11003.pdf"
+              },
+              {
+                "subType": "Depth CORE XIII",
+                "subCode": "CY19003",
+                "subName": "CHEMISTRY LABORATORY",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 2,
+                "syllabus": "syllabus/CY19003.pdf"
+              },
+              {
+                "subType": "Depth CORE XIV",
+                "subCode": "CS11002",
+                "subName": "PROGRAMMING PARADIGMS FOR COMPUTATION",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/CS11002.pdf"
+              },
+              {
+                "subType": "Depth CORE XV",
+                "subCode": "EA10008",
+                "subName": "EXTRA ACADEMIC ACTIVITY-II",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 1,
+                "syllabus": "syllabus/EA10008.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "courseName": "COMPUTER SCIENCE AND ENGG. (M.TECH DUAL 5Y)",
+        "code": "CS2",
+        "curriculum": []
+      },
+      {
+        "courseName": "COMPUTER SCIENCE AND ENGINEERING/ARTIFICIAL INTELLIGENCE MACHINE LEARNING AND APPLICATIONS",
+        "code": "CSA",
+        "curriculum": []
+      },
+      {
+        "courseName": "COMPUTER SCIENCE AND ENGINEERING/FINANCIAL ENGINEERING",
+        "code": "CSJ",
+        "curriculum": []
+      },
+      {
+        "courseName": "COMPUTER SCIENCE AND ENGINEERING/ENGINEERING ENTREPRENEURSHIP",
+        "code": "CSK",
+        "curriculum": []
+      }
+    ]
+  },
+  {
+    "name": "Deysarkar Centre of Excellence in Petroleum Engineering",
+    "courses": [
+      {
+        "courseName": "BTECH IN PARENT DEPARTMENT/MTECH/MSC IN PETROLEUM ENGINEERING",
+        "code": "PE",
+        "curriculum": []
+      }
+    ]
+  },
+  {
+    "name": "Education",
+    "courses": [
+      {
+        "courseName": "ITEP MATHEMATICS (B.SC.-B.ED.)",
+        "code": "SD1",
+        "curriculum": []
+      },
+      {
+        "courseName": "ITEP PHYSICS SECONDARY STAGE I - MINOR IN MATHEMATICS",
+        "code": "SD10",
+        "curriculum": []
+      },
+      {
+        "courseName": "ITEP PHYSICS SECONDARY STAGE I - MINOR IN CHEMISTRY",
+        "code": "SD11",
+        "curriculum": []
+      },
+      {
+        "courseName": "ITEP PHYSICS SECONDARY STAGE I - MINOR IN ECONOMICS",
+        "code": "SD12",
+        "curriculum": []
+      },
+      {
+        "courseName": "ITEP CHEMISTRY SECONDARY STAGE II",
+        "code": "SD13",
+        "curriculum": []
+      },
+      {
+        "courseName": "ITEP CHEMISTRY SECONDARY STAGE I - MINOR IN MATHEMATICS",
+        "code": "SD14",
+        "curriculum": []
+      },
+      {
+        "courseName": "ITEP CHEMISTRY SECONDARY STAGE I - MINOR IN PHYSICS",
+        "code": "SD15",
+        "curriculum": []
+      },
+      {
+        "courseName": "ITEP CHEMISTRY SECONDARY STAGE I - MINOR IN ECONOMICS",
+        "code": "SD16",
+        "curriculum": []
+      },
+      {
+        "courseName": "ITEP ECONOMICS SECONDARY STAGE II",
+        "code": "SD17",
+        "curriculum": []
+      },
+      {
+        "courseName": "ITEP ECONOMICS SECONDARY STAGE I - MINOR IN MATHEMATICS",
+        "code": "SD18",
+        "curriculum": []
+      },
+      {
+        "courseName": "ITEP ECONOMICS SECONDARY STAGE I - MINOR IN PHYSICS",
+        "code": "SD19",
+        "curriculum": []
+      },
+      {
+        "courseName": "ITEP PHYSICS (B.SC.-B.ED.)",
+        "code": "SD2",
+        "curriculum": []
+      },
+      {
+        "courseName": "ITEP ECONOMICS SECONDARY STAGE I - MINOR IN CHEMISTRY",
+        "code": "SD20",
+        "curriculum": []
+      },
+      {
+        "courseName": "ITEP CHEMISTRY (B.SC.-B.ED.)",
+        "code": "SD3",
+        "curriculum": []
+      },
+      {
+        "courseName": "ITEP ECONOMICS (B.SC.-B.ED.)",
+        "code": "SD4",
+        "curriculum": []
+      },
+      {
+        "courseName": "ITEP MATHEMATICS SECONDARY STAGE II",
+        "code": "SD5",
+        "curriculum": []
+      },
+      {
+        "courseName": "ITEP MATHEMATICS SECONDARY STAGE I - MINOR IN PHYSICS",
+        "code": "SD6",
+        "curriculum": []
+      },
+      {
+        "courseName": "ITEP MATHEMATICS SECONDARY STAGE I - MINOR IN CHEMISTRY",
+        "code": "SD7",
+        "curriculum": []
+      },
+      {
+        "courseName": "ITEP MATHEMATICS SECONDARY STAGE I - MINOR IN ECONOMICS",
+        "code": "SD8",
+        "curriculum": []
+      },
+      {
+        "courseName": "ITEP PHYSICS SECONDARY STAGE OF II",
+        "code": "SD9",
+        "curriculum": []
+      }
+    ]
+  },
+  {
+    "name": "Electrical Engineering",
+    "courses": [
+      {
+        "courseName": "ELECTRICAL ENGG. (B.TECH 4Y)",
+        "code": "EE",
+        "curriculum": [
+          {
+            "name": "Semester : 1",
+            "subjects": [
+              {
+                "subType": "Depth CORE C",
+                "subCode": "GE10001",
+                "subName": "GENDER SENSITIZATION",
+                "LTP": [
+                  0,
+                  0,
+                  0
+                ],
+                "credits": 0
+              },
+              {
+                "subType": "Depth CORE I",
+                "subCode": "MA11003",
+                "subName": "ADVANCED CALCULUS",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/MA11003.pdf"
+              },
+              {
+                "subType": "Depth CORE II",
+                "subCode": "CE13003",
+                "subName": "ENGINEERING DRAWING AND COMPUTER GRAPHICS",
+                "LTP": [
+                  1,
+                  0,
+                  3
+                ],
+                "credits": 3,
+                "syllabus": "syllabus/CE13003.pdf"
+              },
+              {
+                "subType": "Depth CORE III",
+                "subCode": "PH11003",
+                "subName": "PHYSICS OF WAVES",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/PH11003.pdf"
+              },
+              {
+                "subType": "Depth CORE IV",
+                "subCode": "ME11003",
+                "subName": "BASIC ENGINEERING MECHANICS",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/ME11003.pdf"
+              },
+              {
+                "subType": "Depth CORE V",
+                "subCode": "EE11005",
+                "subName": "BASIC ELECTRICAL ENGINEERING",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/EE11005.pdf"
+              },
+              {
+                "subType": "Depth CORE VI",
+                "subCode": "EE19005",
+                "subName": "BASIC ELECTRICAL ENGINEERING LAB",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 2,
+                "syllabus": "syllabus/EE19005.pdf"
+              },
+              {
+                "subType": "Depth CORE VII",
+                "subCode": "EA10007",
+                "subName": "EXTRA ACADEMIC ACTIVITY-I",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 1,
+                "syllabus": "syllabus/EA10007.pdf"
+              }
+            ]
+          },
+          {
+            "name": "Semester : 2",
+            "subjects": [
+              {
+                "subType": "Depth CORE IX",
+                "subCode": "MS11002",
+                "subName": "FUNDAMENTALS OF ELECTRONIC MATERIALS AND DEVICES",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/MS11002.pdf"
+              },
+              {
+                "subType": "Depth CORE VIII",
+                "subCode": "MA11004",
+                "subName": "LINEAR ALGEBRA, NUMERICAL AND COMPLEX ANALYSIS",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/MA11004.pdf"
+              },
+              {
+                "subType": "Depth CORE X",
+                "subCode": "EC21201",
+                "subName": "BASIC ELECTRONICS",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/EC21201.pdf"
+              },
+              {
+                "subType": "Depth CORE XI",
+                "subCode": "EE11002",
+                "subName": "NETWORK ANALYSIS",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/EE11002.pdf"
+              },
+              {
+                "subType": "Depth CORE XII",
+                "subCode": "CS10003",
+                "subName": "PROGRAMMING AND DATA STRUCTURES",
+                "LTP": [
+                  3,
+                  0,
+                  0
+                ],
+                "credits": 3,
+                "syllabus": "syllabus/CS10003.pdf"
+              },
+              {
+                "subType": "Depth CORE XIII",
+                "subCode": "CS19003",
+                "subName": "PROGRAMMING AND DATA STRUCTURES LABORATORY",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 2,
+                "syllabus": "syllabus/CS19003.pdf"
+              },
+              {
+                "subType": "Depth CORE XIV",
+                "subCode": "EA10008",
+                "subName": "EXTRA ACADEMIC ACTIVITY-II",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 1,
+                "syllabus": "syllabus/EA10008.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "courseName": "ELECT.ENGG.  CONTROL SYSTEM ENGG.(M.TECH DUAL 5Y)",
+        "code": "EE2",
+        "curriculum": []
+      },
+      {
+        "courseName": "ELECT.ENGG.  MACH. DRIVES AND POWER ELECT.(M.TECH DUAL 5Y)",
+        "code": "EE3",
+        "curriculum": []
+      },
+      {
+        "courseName": "ELECT.ENGG. POWER AND ENERGY SYSTEMS(M.TECH DUAL 5Y)",
+        "code": "EE6",
+        "curriculum": []
+      },
+      {
+        "courseName": "ELECT.ENGG. INSTRUMENTATION AND INTEGRATED ELECTRONICS(M.TECH DUAL 5Y)",
+        "code": "EE7",
+        "curriculum": []
+      },
+      {
+        "courseName": "ELECT.ENGG. SIGNAL PROCESSING AND MACHINE LEARNING(M.TECH DUAL 5Y)",
+        "code": "EE8",
+        "curriculum": []
+      },
+      {
+        "courseName": "ELECTRICAL ENGINEERING/ARTIFICIAL INTELLIGENCE MACHINE LEARNING AND APPLICATIONS",
+        "code": "EEA",
+        "curriculum": []
+      },
+      {
+        "courseName": "ELECT.ENGG. DUAL DEGREE IN ANY SPL.(M.TECH DUAL 5Y)",
+        "code": "EED",
+        "curriculum": []
+      },
+      {
+        "courseName": "ELECT.ENGG/FINANCIAL ENGINEERING",
+        "code": "EEJ",
+        "curriculum": []
+      },
+      {
+        "courseName": "ELECT.ENGG/ENGINEERING ENTREPRENEURSHIP",
+        "code": "EEK",
+        "curriculum": []
+      },
+      {
+        "courseName": "INSTRUMENTATION ENGG. (B.TECH 4Y)",
+        "code": "IE",
+        "curriculum": [
+          {
+            "name": "Semester : 1",
+            "subjects": [
+              {
+                "subType": "Depth CORE C",
+                "subCode": "GE10001",
+                "subName": "GENDER SENSITIZATION",
+                "LTP": [
+                  0,
+                  0,
+                  0
+                ],
+                "credits": 0
+              },
+              {
+                "subType": "Depth CORE I",
+                "subCode": "MA11003",
+                "subName": "ADVANCED CALCULUS",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/MA11003.pdf"
+              },
+              {
+                "subType": "Depth CORE II",
+                "subCode": "CE13003",
+                "subName": "ENGINEERING DRAWING AND COMPUTER GRAPHICS",
+                "LTP": [
+                  1,
+                  0,
+                  3
+                ],
+                "credits": 3,
+                "syllabus": "syllabus/CE13003.pdf"
+              },
+              {
+                "subType": "Depth CORE III",
+                "subCode": "PH11003",
+                "subName": "PHYSICS OF WAVES",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/PH11003.pdf"
+              },
+              {
+                "subType": "Depth CORE IV",
+                "subCode": "ME11003",
+                "subName": "BASIC ENGINEERING MECHANICS",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/ME11003.pdf"
+              },
+              {
+                "subType": "Depth CORE V",
+                "subCode": "EE11005",
+                "subName": "BASIC ELECTRICAL ENGINEERING",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/EE11005.pdf"
+              },
+              {
+                "subType": "Depth CORE VI",
+                "subCode": "EE19005",
+                "subName": "BASIC ELECTRICAL ENGINEERING LAB",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 2,
+                "syllabus": "syllabus/EE19005.pdf"
+              },
+              {
+                "subType": "Depth CORE VII",
+                "subCode": "EA10007",
+                "subName": "EXTRA ACADEMIC ACTIVITY-I",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 1,
+                "syllabus": "syllabus/EA10007.pdf"
+              }
+            ]
+          },
+          {
+            "name": "Semester : 2",
+            "subjects": [
+              {
+                "subType": "Depth CORE IX",
+                "subCode": "MS11002",
+                "subName": "FUNDAMENTALS OF ELECTRONIC MATERIALS AND DEVICES",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/MS11002.pdf"
+              },
+              {
+                "subType": "Depth CORE VIII",
+                "subCode": "MA11004",
+                "subName": "LINEAR ALGEBRA, NUMERICAL AND COMPLEX ANALYSIS",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/MA11004.pdf"
+              },
+              {
+                "subType": "Depth CORE X",
+                "subCode": "EC21201",
+                "subName": "BASIC ELECTRONICS",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/EC21201.pdf"
+              },
+              {
+                "subType": "Depth CORE XI",
+                "subCode": "EE11002",
+                "subName": "NETWORK ANALYSIS",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/EE11002.pdf"
+              },
+              {
+                "subType": "Depth CORE XII",
+                "subCode": "CS10003",
+                "subName": "PROGRAMMING AND DATA STRUCTURES",
+                "LTP": [
+                  3,
+                  0,
+                  0
+                ],
+                "credits": 3,
+                "syllabus": "syllabus/CS10003.pdf"
+              },
+              {
+                "subType": "Depth CORE XIII",
+                "subCode": "CS19003",
+                "subName": "PROGRAMMING AND DATA STRUCTURES LABORATORY",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 2,
+                "syllabus": "syllabus/CS19003.pdf"
+              },
+              {
+                "subType": "Depth CORE XIV",
+                "subCode": "EA10008",
+                "subName": "EXTRA ACADEMIC ACTIVITY-II",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 1,
+                "syllabus": "syllabus/EA10008.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "courseName": "INSTRUMENTATION ENGINEERING/CONTROL SYSTEM ENGINEERING(M.TECH DUAL 5Y)",
+        "code": "IE2",
+        "curriculum": []
+      },
+      {
+        "courseName": "INSTRUMENTATION ENGINEERING/INSTRUMENTATION AND INTEGRATED ELECTRONICS(M.TECH DUAL 5Y)",
+        "code": "IE4",
+        "curriculum": []
+      },
+      {
+        "courseName": "INSTRUMENTATION ENGINEERING/SIGNAL PROCESSING AND MACHINE LEARNING(M.TECH DUAL 5Y)",
+        "code": "IE5",
+        "curriculum": []
+      },
+      {
+        "courseName": "INSTRUMENTATION ENGINEERING/ARTIFICIAL INTELLIGENCE MACHINE LEARNING AND APPLICATIONS",
+        "code": "IEA",
+        "curriculum": []
+      },
+      {
+        "courseName": "INSTRUMENTATION ENGINEERING/FINANCIAL ENGINEERING",
+        "code": "IEJ",
+        "curriculum": []
+      },
+      {
+        "courseName": "INSTRUMENTATION ENGINEERING/ENGINEERING ENTREPRENEURSHIP",
+        "code": "IEK",
+        "curriculum": []
+      }
+    ]
+  },
+  {
+    "name": "Electronics and Electrical Communication Engg.",
+    "courses": [
+      {
+        "courseName": "ELECTRONICS AND ELEC. COMM.ENGG. (B.TECH 4Y)",
+        "code": "EC",
+        "curriculum": [
+          {
+            "name": "Semester : 1",
+            "subjects": [
+              {
+                "subType": "Depth CORE C",
+                "subCode": "GE10001",
+                "subName": "GENDER SENSITIZATION",
+                "LTP": [
+                  0,
+                  0,
+                  0
+                ],
+                "credits": 0
+              },
+              {
+                "subType": "Depth CORE I",
+                "subCode": "MA11003",
+                "subName": "ADVANCED CALCULUS",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/MA11003.pdf"
+              },
+              {
+                "subType": "Depth CORE II",
+                "subCode": "CS10003",
+                "subName": "PROGRAMMING AND DATA STRUCTURES",
+                "LTP": [
+                  3,
+                  0,
+                  0
+                ],
+                "credits": 3,
+                "syllabus": "syllabus/CS10003.pdf"
+              },
+              {
+                "subType": "Depth CORE III",
+                "subCode": "CS19003",
+                "subName": "PROGRAMMING AND DATA STRUCTURES LABORATORY",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 2,
+                "syllabus": "syllabus/CS19003.pdf"
+              },
+              {
+                "subType": "Depth CORE IV",
+                "subCode": "EC12001",
+                "subName": "ELECTRONIC SYSTEMS",
+                "LTP": [
+                  2,
+                  0,
+                  2
+                ],
+                "credits": 3
+              },
+              {
+                "subType": "Depth CORE V",
+                "subCode": "EC21203",
+                "subName": "NETWORK THEORY",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/EC21203.pdf"
+              },
+              {
+                "subType": "Depth CORE VI",
+                "subCode": "EC21206",
+                "subName": "ELECTROMAGNETIC ENGINEERING",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/EC21206.pdf"
+              },
+              {
+                "subType": "Depth CORE VII",
+                "subCode": "EC29203",
+                "subName": "NETWORK THEORY LABORATORY",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 2,
+                "syllabus": "syllabus/EC29203.pdf"
+              },
+              {
+                "subType": "Depth CORE VIII",
+                "subCode": "EA10007",
+                "subName": "EXTRA ACADEMIC ACTIVITY-I",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 1,
+                "syllabus": "syllabus/EA10007.pdf"
+              }
+            ]
+          },
+          {
+            "name": "Semester : 2",
+            "subjects": [
+              {
+                "subType": "Depth CORE IX",
+                "subCode": "MA11004",
+                "subName": "LINEAR ALGEBRA, NUMERICAL AND COMPLEX ANALYSIS",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/MA11004.pdf"
+              },
+              {
+                "subType": "Depth CORE X",
+                "subCode": "EC11002",
+                "subName": "PROBABILITY AND STOCHASTIC PROCESSES",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/EC11002.pdf"
+              },
+              {
+                "subType": "Depth CORE XI",
+                "subCode": "EC21208",
+                "subName": "SIGNALS AND SYSTEMS",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/EC21208.pdf"
+              },
+              {
+                "subType": "Depth CORE XII",
+                "subCode": "EC21205",
+                "subName": "SEMICONDUCTOR DEVICES",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/EC21205.pdf"
+              },
+              {
+                "subType": "Depth CORE XIII",
+                "subCode": "EC29205",
+                "subName": "DEVICES LABORATORY",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 2,
+                "syllabus": "syllabus/EC29205.pdf"
+              },
+              {
+                "subType": "Depth CORE XIV",
+                "subCode": "EE11003",
+                "subName": "ELECTRICAL TECHNOLOGY",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/EE11003.pdf"
+              },
+              {
+                "subType": "Depth CORE XV",
+                "subCode": "EA10008",
+                "subName": "EXTRA ACADEMIC ACTIVITY-II",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 1,
+                "syllabus": "syllabus/EA10008.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "courseName": "ELECT.ANDELEC.COM.ENGG.RF AND MICROWAVE ENGG.  (M.TECH DUAL5Y)",
+        "code": "EC3",
+        "curriculum": []
+      },
+      {
+        "courseName": "ELECT.AND ELEC.COM.ENGG. MICROELECTRONICS AND VLSI CIRCUITS(M.TECH DUAL5Y)",
+        "code": "EC7",
+        "curriculum": []
+      },
+      {
+        "courseName": "ELECT.AND ELEC.COM.ENGG. COMMUNICATIONS AND SIGNAL PROCESSING(M.TECH DUAL5Y)",
+        "code": "EC8",
+        "curriculum": []
+      },
+      {
+        "courseName": "ELECT.AND ELEC.COM.ENGG. VISION AND INTELLIGENT SYSTEMS(M.TECH DUAL5Y)",
+        "code": "EC9",
+        "curriculum": []
+      },
+      {
+        "courseName": "ELECTRONICS AND ELEC. COMM. ENGINEERING/ARTIFICIAL INTELLIGENCE MACHINE LEARNING AND APPLICATIONS",
+        "code": "ECA",
+        "curriculum": []
+      },
+      {
+        "courseName": "ELECT.ANDELEC.COM.ENGG.DUAL DEGREE IN ANY SPL.(M.TECH DUAL5Y)",
+        "code": "ECD",
+        "curriculum": [
+          {
+            "name": "Semester : 1",
+            "subjects": [
+              {
+                "subType": "Depth CORE C",
+                "subCode": "GE10001",
+                "subName": "GENDER SENSITIZATION",
+                "LTP": [
+                  0,
+                  0,
+                  0
+                ],
+                "credits": 0
+              },
+              {
+                "subType": "Depth CORE I",
+                "subCode": "MA11003",
+                "subName": "ADVANCED CALCULUS",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/MA11003.pdf"
+              },
+              {
+                "subType": "Depth CORE II",
+                "subCode": "CS10003",
+                "subName": "PROGRAMMING AND DATA STRUCTURES",
+                "LTP": [
+                  3,
+                  0,
+                  0
+                ],
+                "credits": 3,
+                "syllabus": "syllabus/CS10003.pdf"
+              },
+              {
+                "subType": "Depth CORE III",
+                "subCode": "CS19003",
+                "subName": "PROGRAMMING AND DATA STRUCTURES LABORATORY",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 2,
+                "syllabus": "syllabus/CS19003.pdf"
+              },
+              {
+                "subType": "Depth CORE IV",
+                "subCode": "EC12001",
+                "subName": "ELECTRONIC SYSTEMS",
+                "LTP": [
+                  2,
+                  0,
+                  2
+                ],
+                "credits": 3
+              },
+              {
+                "subType": "Depth CORE V",
+                "subCode": "EC21203",
+                "subName": "NETWORK THEORY",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/EC21203.pdf"
+              },
+              {
+                "subType": "Depth CORE VI",
+                "subCode": "EC21206",
+                "subName": "ELECTROMAGNETIC ENGINEERING",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/EC21206.pdf"
+              },
+              {
+                "subType": "Depth CORE VII",
+                "subCode": "EC29203",
+                "subName": "NETWORK THEORY LABORATORY",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 2,
+                "syllabus": "syllabus/EC29203.pdf"
+              },
+              {
+                "subType": "Depth CORE VIII",
+                "subCode": "EA10007",
+                "subName": "EXTRA ACADEMIC ACTIVITY-I",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 1,
+                "syllabus": "syllabus/EA10007.pdf"
+              }
+            ]
+          },
+          {
+            "name": "Semester : 2",
+            "subjects": [
+              {
+                "subType": "Depth CORE IX",
+                "subCode": "MA11004",
+                "subName": "LINEAR ALGEBRA, NUMERICAL AND COMPLEX ANALYSIS",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/MA11004.pdf"
+              },
+              {
+                "subType": "Depth CORE X",
+                "subCode": "EC11002",
+                "subName": "PROBABILITY AND STOCHASTIC PROCESSES",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/EC11002.pdf"
+              },
+              {
+                "subType": "Depth CORE XI",
+                "subCode": "EC21208",
+                "subName": "SIGNALS AND SYSTEMS",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/EC21208.pdf"
+              },
+              {
+                "subType": "Depth CORE XII",
+                "subCode": "EC21205",
+                "subName": "SEMICONDUCTOR DEVICES",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/EC21205.pdf"
+              },
+              {
+                "subType": "Depth CORE XIII",
+                "subCode": "EC29205",
+                "subName": "DEVICES LABORATORY",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 2,
+                "syllabus": "syllabus/EC29205.pdf"
+              },
+              {
+                "subType": "Depth CORE XIV",
+                "subCode": "EE11003",
+                "subName": "ELECTRICAL TECHNOLOGY",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/EE11003.pdf"
+              },
+              {
+                "subType": "Depth CORE XV",
+                "subCode": "EA10008",
+                "subName": "EXTRA ACADEMIC ACTIVITY-II",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 1,
+                "syllabus": "syllabus/EA10008.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "courseName": "ELECTRONICS AND ELECTRICAL COMMUNICATION ENGG./FINANCIAL ENGINEERING",
+        "code": "ECJ",
+        "curriculum": []
+      },
+      {
+        "courseName": "ELECTRONICS AND ELECTRICAL COMMUNICATION ENGG./ENGINEERING ENTREPRENEURSHIP",
+        "code": "ECK",
+        "curriculum": []
+      }
+    ]
+  },
+  {
+    "name": "Geology and Geophysics",
+    "courses": [
+      {
+        "courseName": "EXPLORATION GEOPHYSICS (M.SC. 5Y)",
+        "code": "EX",
+        "curriculum": []
+      },
+      {
+        "courseName": "EXPLORATION GEOPHYSICS (B.S.4Y)",
+        "code": "EX2",
+        "curriculum": [
+          {
+            "name": "Semester : 1",
+            "subjects": [
+              {
+                "subType": "Depth CORE C",
+                "subCode": "GE10001",
+                "subName": "GENDER SENSITIZATION",
+                "LTP": [
+                  0,
+                  0,
+                  0
+                ],
+                "credits": 0
+              },
+              {
+                "subType": "Depth CORE I",
+                "subCode": "MA11003",
+                "subName": "ADVANCED CALCULUS",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/MA11003.pdf"
+              },
+              {
+                "subType": "Depth CORE II",
+                "subCode": "PH11003",
+                "subName": "PHYSICS OF WAVES",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/PH11003.pdf"
+              },
+              {
+                "subType": "Depth CORE III",
+                "subCode": "PH19003",
+                "subName": "PHYSICS LABORATORY",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 2,
+                "syllabus": "syllabus/PH19003.pdf"
+              },
+              {
+                "subType": "Depth CORE IV",
+                "subCode": "ME11003",
+                "subName": "BASIC ENGINEERING MECHANICS",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/ME11003.pdf"
+              },
+              {
+                "subType": "Depth CORE V",
+                "subCode": "GG21207",
+                "subName": "INTRODUCTION TO EARTH SCIENCE",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/GG21207.pdf"
+              },
+              {
+                "subType": "Depth CORE VI",
+                "subCode": "GG29209",
+                "subName": "INTRODUCTION TO EARTH SCIENCE LAB",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 2,
+                "syllabus": "syllabus/GG29209.pdf"
+              },
+              {
+                "subType": "Depth CORE VII",
+                "subCode": "GG20205",
+                "subName": "INTRODUCTORY GEOPHYSICS",
+                "LTP": [
+                  3,
+                  0,
+                  0
+                ],
+                "credits": 3,
+                "syllabus": "syllabus/GG20205.pdf"
+              },
+              {
+                "subType": "Depth CORE VIII",
+                "subCode": "EA10007",
+                "subName": "EXTRA ACADEMIC ACTIVITY-I",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 1,
+                "syllabus": "syllabus/EA10007.pdf"
+              }
+            ]
+          },
+          {
+            "name": "Semester : 2",
+            "subjects": [
+              {
+                "subType": "Depth CORE IX",
+                "subCode": "MA11004",
+                "subName": "LINEAR ALGEBRA, NUMERICAL AND COMPLEX ANALYSIS",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/MA11004.pdf"
+              },
+              {
+                "subType": "Depth CORE X",
+                "subCode": "CS10003",
+                "subName": "PROGRAMMING AND DATA STRUCTURES",
+                "LTP": [
+                  3,
+                  0,
+                  0
+                ],
+                "credits": 3,
+                "syllabus": "syllabus/CS10003.pdf"
+              },
+              {
+                "subType": "Depth CORE XI",
+                "subCode": "CS19003",
+                "subName": "PROGRAMMING AND DATA STRUCTURES LABORATORY",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 2,
+                "syllabus": "syllabus/CS19003.pdf"
+              },
+              {
+                "subType": "Depth CORE XII",
+                "subCode": "EC21201",
+                "subName": "BASIC ELECTRONICS",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/EC21201.pdf"
+              },
+              {
+                "subType": "Depth CORE XIII",
+                "subCode": "EC29201",
+                "subName": "BASIC ELECTRONICS LABORATORY",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 2,
+                "syllabus": "syllabus/EC29201.pdf"
+              },
+              {
+                "subType": "Depth CORE XIV",
+                "subCode": "EE11003",
+                "subName": "ELECTRICAL TECHNOLOGY",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/EE11003.pdf"
+              },
+              {
+                "subType": "Depth CORE XV",
+                "subCode": "EN19003",
+                "subName": "ENGINEERING LABORATORY",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 2,
+                "syllabus": "syllabus/EN19003.pdf"
+              },
+              {
+                "subType": "Depth CORE XVI",
+                "subCode": "EA10008",
+                "subName": "EXTRA ACADEMIC ACTIVITY-II",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 1,
+                "syllabus": "syllabus/EA10008.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "courseName": "EXPLORATION GEOPHYSICS (BS-MS 5Y)",
+        "code": "EX3",
+        "curriculum": []
+      },
+      {
+        "courseName": "GEOPHYSICS(2YR. M.SC)",
+        "code": "EX4",
+        "curriculum": []
+      },
+      {
+        "courseName": "EXPLORATION GEOPHYSICS/PETROLEUM ENGINEERING",
+        "code": "EX6",
+        "curriculum": []
+      },
+      {
+        "courseName": "EXPLORATION GEOPHYSICS/ARTIFICIAL INTELLIGENCE MACHINE LEARNING AND APPLICATIONS",
+        "code": "EXA",
+        "curriculum": []
+      },
+      {
+        "courseName": "EXPLORATION GEOPHYSICS/PETROLEUM ENGINEERING",
+        "code": "EXP",
+        "curriculum": []
+      },
+      {
+        "courseName": "APPLIED GEOLOGY (M.SC. 5Y)",
+        "code": "GG",
+        "curriculum": []
+      },
+      {
+        "courseName": "APPLIED GEOLOGY (B.S.4Y)",
+        "code": "GG2",
+        "curriculum": [
+          {
+            "name": "Semester : 1",
+            "subjects": [
+              {
+                "subType": "Depth CORE C",
+                "subCode": "GE10001",
+                "subName": "GENDER SENSITIZATION",
+                "LTP": [
+                  0,
+                  0,
+                  0
+                ],
+                "credits": 0
+              },
+              {
+                "subType": "Depth CORE I",
+                "subCode": "MA11003",
+                "subName": "ADVANCED CALCULUS",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/MA11003.pdf"
+              },
+              {
+                "subType": "Depth CORE II",
+                "subCode": "PH11003",
+                "subName": "PHYSICS OF WAVES",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/PH11003.pdf"
+              },
+              {
+                "subType": "Depth CORE III",
+                "subCode": "PH19003",
+                "subName": "PHYSICS LABORATORY",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 2,
+                "syllabus": "syllabus/PH19003.pdf"
+              },
+              {
+                "subType": "Depth CORE IV",
+                "subCode": "GG20211",
+                "subName": "MINERALOGY",
+                "LTP": [
+                  3,
+                  0,
+                  0
+                ],
+                "credits": 3,
+                "syllabus": "syllabus/GG20211.pdf"
+              },
+              {
+                "subType": "Depth CORE V",
+                "subCode": "GG21207",
+                "subName": "INTRODUCTION TO EARTH SCIENCE",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/GG21207.pdf"
+              },
+              {
+                "subType": "Depth CORE VI",
+                "subCode": "GG29209",
+                "subName": "INTRODUCTION TO EARTH SCIENCE LAB",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 2,
+                "syllabus": "syllabus/GG29209.pdf"
+              },
+              {
+                "subType": "Depth CORE VII",
+                "subCode": "GG20205",
+                "subName": "INTRODUCTORY GEOPHYSICS",
+                "LTP": [
+                  3,
+                  0,
+                  0
+                ],
+                "credits": 3,
+                "syllabus": "syllabus/GG20205.pdf"
+              },
+              {
+                "subType": "Depth CORE VIII",
+                "subCode": "EA10007",
+                "subName": "EXTRA ACADEMIC ACTIVITY-I",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 1,
+                "syllabus": "syllabus/EA10007.pdf"
+              }
+            ]
+          },
+          {
+            "name": "Semester : 2",
+            "subjects": [
+              {
+                "subType": "Depth CORE IX",
+                "subCode": "MA11004",
+                "subName": "LINEAR ALGEBRA, NUMERICAL AND COMPLEX ANALYSIS",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/MA11004.pdf"
+              },
+              {
+                "subType": "Depth CORE X",
+                "subCode": "CS10003",
+                "subName": "PROGRAMMING AND DATA STRUCTURES",
+                "LTP": [
+                  3,
+                  0,
+                  0
+                ],
+                "credits": 3,
+                "syllabus": "syllabus/CS10003.pdf"
+              },
+              {
+                "subType": "Depth CORE XI",
+                "subCode": "CS19003",
+                "subName": "PROGRAMMING AND DATA STRUCTURES LABORATORY",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 2,
+                "syllabus": "syllabus/CS19003.pdf"
+              },
+              {
+                "subType": "Depth CORE XII",
+                "subCode": "CY11003",
+                "subName": "CHEMISTRY",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/CY11003.pdf"
+              },
+              {
+                "subType": "Depth CORE XIII",
+                "subCode": "CY19003",
+                "subName": "CHEMISTRY LABORATORY",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 2,
+                "syllabus": "syllabus/CY19003.pdf"
+              },
+              {
+                "subType": "Depth CORE XIV",
+                "subCode": "ME11003",
+                "subName": "BASIC ENGINEERING MECHANICS",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/ME11003.pdf"
+              },
+              {
+                "subType": "Depth CORE XV",
+                "subCode": "GG29206",
+                "subName": "OPTICAL MINERALOGY LAB",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 2,
+                "syllabus": "syllabus/GG29206.pdf"
+              },
+              {
+                "subType": "Depth CORE XVI",
+                "subCode": "EA10008",
+                "subName": "EXTRA ACADEMIC ACTIVITY-II",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 1,
+                "syllabus": "syllabus/EA10008.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "courseName": "APPLIED GEOLOGY (BS-MS 5Y)",
+        "code": "GG3",
+        "curriculum": []
+      },
+      {
+        "courseName": "GEOLOGY(2YR. M.SC.)",
+        "code": "GG5",
+        "curriculum": []
+      },
+      {
+        "courseName": "APPLIED GEOLOGY/PETROLEUM ENGINEERING",
+        "code": "GG6",
+        "curriculum": []
+      },
+      {
+        "courseName": "APPLIED GEOLOGY/ARTIFICIAL INTELLIGENCE MACHINE LEARNING AND APPLICATIONS",
+        "code": "GGA",
+        "curriculum": []
+      },
+      {
+        "courseName": "APPLIED GEOLOGY/PETROLEUM ENGINEERING",
+        "code": "GGP",
+        "curriculum": []
+      }
+    ]
+  },
+  {
+    "name": "Humanities and Social Sciences",
+    "courses": [
+      {
+        "courseName": "ECONOMICS (M.SC. 5Y)",
+        "code": "HS",
+        "curriculum": []
+      },
+      {
+        "courseName": "ECONOMICS (B.S.4Y)",
+        "code": "HS2",
+        "curriculum": [
+          {
+            "name": "Semester : 1",
+            "subjects": [
+              {
+                "subType": "Depth CORE C",
+                "subCode": "GE10001",
+                "subName": "GENDER SENSITIZATION",
+                "LTP": [
+                  0,
+                  0,
+                  0
+                ],
+                "credits": 0
+              },
+              {
+                "subType": "Depth CORE I",
+                "subCode": "MA11003",
+                "subName": "ADVANCED CALCULUS",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/MA11003.pdf"
+              },
+              {
+                "subType": "Depth CORE II",
+                "subCode": "CS10003",
+                "subName": "PROGRAMMING AND DATA STRUCTURES",
+                "LTP": [
+                  3,
+                  0,
+                  0
+                ],
+                "credits": 3,
+                "syllabus": "syllabus/CS10003.pdf"
+              },
+              {
+                "subType": "Depth CORE III",
+                "subCode": "CS19003",
+                "subName": "PROGRAMMING AND DATA STRUCTURES LABORATORY",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 2,
+                "syllabus": "syllabus/CS19003.pdf"
+              },
+              {
+                "subType": "Depth CORE IV",
+                "subCode": "EC21201",
+                "subName": "BASIC ELECTRONICS",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/EC21201.pdf"
+              },
+              {
+                "subType": "Depth CORE V",
+                "subCode": "EC29201",
+                "subName": "BASIC ELECTRONICS LABORATORY",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 2,
+                "syllabus": "syllabus/EC29201.pdf"
+              },
+              {
+                "subType": "Depth CORE VI",
+                "subCode": "EM11001",
+                "subName": "PRINCIPLES OF ECONOMICS",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4
+              },
+              {
+                "subType": "Depth CORE VII",
+                "subCode": "EA10007",
+                "subName": "EXTRA ACADEMIC ACTIVITY-I",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 1,
+                "syllabus": "syllabus/EA10007.pdf"
+              }
+            ]
+          },
+          {
+            "name": "Semester : 2",
+            "subjects": [
+              {
+                "subType": "Depth CORE IX",
+                "subCode": "CE13003",
+                "subName": "ENGINEERING DRAWING AND COMPUTER GRAPHICS",
+                "LTP": [
+                  1,
+                  0,
+                  3
+                ],
+                "credits": 3,
+                "syllabus": "syllabus/CE13003.pdf"
+              },
+              {
+                "subType": "Depth CORE VIII",
+                "subCode": "MA11004",
+                "subName": "LINEAR ALGEBRA, NUMERICAL AND COMPLEX ANALYSIS",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/MA11004.pdf"
+              },
+              {
+                "subType": "Depth CORE X",
+                "subCode": "CY11003",
+                "subName": "CHEMISTRY",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/CY11003.pdf"
+              },
+              {
+                "subType": "Depth CORE XI",
+                "subCode": "CY19003",
+                "subName": "CHEMISTRY LABORATORY",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 2,
+                "syllabus": "syllabus/CY19003.pdf"
+              },
+              {
+                "subType": "Depth CORE XII",
+                "subCode": "EM11002",
+                "subName": "STATISTICS FOR ECONOMICS",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/EM11002.pdf"
+              },
+              {
+                "subType": "Depth CORE XIII",
+                "subCode": "PH11003",
+                "subName": "PHYSICS OF WAVES",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/PH11003.pdf"
+              },
+              {
+                "subType": "Depth CORE XIV",
+                "subCode": "PH19003",
+                "subName": "PHYSICS LABORATORY",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 2,
+                "syllabus": "syllabus/PH19003.pdf"
+              },
+              {
+                "subType": "Depth CORE XV",
+                "subCode": "EA10008",
+                "subName": "EXTRA ACADEMIC ACTIVITY-II",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 1,
+                "syllabus": "syllabus/EA10008.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "courseName": "ECONOMICS (BS-MS 5Y)",
+        "code": "HS3",
+        "curriculum": []
+      },
+      {
+        "courseName": "ECONOMICS/ARTIFICIAL INTELLIGENCE MACHINE LEARNING AND APPLICATIONS",
+        "code": "HSA",
+        "curriculum": []
+      }
+    ]
+  },
+  {
+    "name": "Industrial and Systems Engineering",
+    "courses": [
+      {
+        "courseName": "INDUSTRIAL ENGG. (B.TECH 4Y)",
+        "code": "IM",
+        "curriculum": [
+          {
+            "name": "Semester : 1",
+            "subjects": [
+              {
+                "subType": "Depth CORE C",
+                "subCode": "GE10001",
+                "subName": "GENDER SENSITIZATION",
+                "LTP": [
+                  0,
+                  0,
+                  0
+                ],
+                "credits": 0
+              },
+              {
+                "subType": "Depth CORE I",
+                "subCode": "MA11003",
+                "subName": "ADVANCED CALCULUS",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/MA11003.pdf"
+              },
+              {
+                "subType": "Depth CORE II",
+                "subCode": "CY11003",
+                "subName": "CHEMISTRY",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/CY11003.pdf"
+              },
+              {
+                "subType": "Depth CORE III",
+                "subCode": "CY19003",
+                "subName": "CHEMISTRY LABORATORY",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 2,
+                "syllabus": "syllabus/CY19003.pdf"
+              },
+              {
+                "subType": "Depth CORE IV",
+                "subCode": "CS10003",
+                "subName": "PROGRAMMING AND DATA STRUCTURES",
+                "LTP": [
+                  3,
+                  0,
+                  0
+                ],
+                "credits": 3,
+                "syllabus": "syllabus/CS10003.pdf"
+              },
+              {
+                "subType": "Depth CORE V",
+                "subCode": "CS19003",
+                "subName": "PROGRAMMING AND DATA STRUCTURES LABORATORY",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 2,
+                "syllabus": "syllabus/CS19003.pdf"
+              },
+              {
+                "subType": "Depth CORE VI",
+                "subCode": "EE11003",
+                "subName": "ELECTRICAL TECHNOLOGY",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/EE11003.pdf"
+              },
+              {
+                "subType": "Depth CORE VII",
+                "subCode": "ME29201",
+                "subName": "INTRODUCTION TO BASIC MANUFACTURING PROCESSES",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 2,
+                "syllabus": "syllabus/ME29201.pdf"
+              },
+              {
+                "subType": "Depth CORE VIII",
+                "subCode": "EA10007",
+                "subName": "EXTRA ACADEMIC ACTIVITY-I",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 1,
+                "syllabus": "syllabus/EA10007.pdf"
+              }
+            ]
+          },
+          {
+            "name": "Semester : 2",
+            "subjects": [
+              {
+                "subType": "Depth CORE IX",
+                "subCode": "MA11004",
+                "subName": "LINEAR ALGEBRA, NUMERICAL AND COMPLEX ANALYSIS",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/MA11004.pdf"
+              },
+              {
+                "subType": "Depth CORE X",
+                "subCode": "CE13003",
+                "subName": "ENGINEERING DRAWING AND COMPUTER GRAPHICS",
+                "LTP": [
+                  1,
+                  0,
+                  3
+                ],
+                "credits": 3,
+                "syllabus": "syllabus/CE13003.pdf"
+              },
+              {
+                "subType": "Depth CORE XI",
+                "subCode": "EC21201",
+                "subName": "BASIC ELECTRONICS",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/EC21201.pdf"
+              },
+              {
+                "subType": "Depth CORE XII",
+                "subCode": "EC29201",
+                "subName": "BASIC ELECTRONICS LABORATORY",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 2,
+                "syllabus": "syllabus/EC29201.pdf"
+              },
+              {
+                "subType": "Depth CORE XIII",
+                "subCode": "ME11003",
+                "subName": "BASIC ENGINEERING MECHANICS",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/ME11003.pdf"
+              },
+              {
+                "subType": "Depth CORE XIV",
+                "subCode": "PH11003",
+                "subName": "PHYSICS OF WAVES",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/PH11003.pdf"
+              },
+              {
+                "subType": "Depth CORE XV",
+                "subCode": "PH19003",
+                "subName": "PHYSICS LABORATORY",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 2,
+                "syllabus": "syllabus/PH19003.pdf"
+              },
+              {
+                "subType": "Depth CORE XVI",
+                "subCode": "EA10008",
+                "subName": "EXTRA ACADEMIC ACTIVITY-II",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 1,
+                "syllabus": "syllabus/EA10008.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "courseName": "INDU. ENGG. INDU. ENGG. AND MANG. (M.TECH DUAL 5Y)",
+        "code": "IM1",
+        "curriculum": []
+      },
+      {
+        "courseName": "INDUSTRIAL ENGINEERING/ARTIFICIAL INTELLIGENCE MACHINE LEARNING AND APPLICATIONS",
+        "code": "IMA",
+        "curriculum": []
+      },
+      {
+        "courseName": "INDUSTRIAL ENGINEERING/FINANCIAL ENGINEERING",
+        "code": "IMJ",
+        "curriculum": []
+      },
+      {
+        "courseName": "INDUSTRIAL ENGINEERING/ENGINEERING ENTREPRENEURSHIP",
+        "code": "IMK",
+        "curriculum": []
+      },
+      {
+        "courseName": "QUALITY ENGINEERING DESIGN AND MANUFACTURING (M.TECH DUAL 5Y)",
+        "code": "QD1",
+        "curriculum": []
+      },
+      {
+        "courseName": "QUALITY ENGINEERING DESIGN AND MANUFACTURING (INDUSTRIAL ELECTRONICS VERTICAL) (M.TECH DUAL 5Y)",
+        "code": "QDE",
+        "curriculum": []
+      },
+      {
+        "courseName": "QUALITY ENGINEERING DESIGN AND MANUFACTURING (MECHANICAL ENGINEERING VERTICAL)(M.TECH DUAL 5Y)",
+        "code": "QDM",
+        "curriculum": []
+      }
+    ]
+  },
+  {
+    "name": "Mathematics",
+    "courses": [
+      {
+        "courseName": "MATHEMATICS AND COMPUTING (M.SC. 5Y)",
+        "code": "MA",
+        "curriculum": []
+      },
+      {
+        "courseName": "MATHEMATICS AND COMPUTING (B.S.4Y)",
+        "code": "MA2",
+        "curriculum": [
+          {
+            "name": "Semester : 1",
+            "subjects": [
+              {
+                "subType": "Depth CORE C",
+                "subCode": "GE10001",
+                "subName": "GENDER SENSITIZATION",
+                "LTP": [
+                  0,
+                  0,
+                  0
+                ],
+                "credits": 0
+              },
+              {
+                "subType": "Depth CORE I",
+                "subCode": "MA11005",
+                "subName": "LINEAR ALGEBRA",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4
+              },
+              {
+                "subType": "Depth CORE II",
+                "subCode": "MA11007",
+                "subName": "SINGLE VARIABLE CALCULUS",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4
+              },
+              {
+                "subType": "Depth CORE III",
+                "subCode": "EC21201",
+                "subName": "BASIC ELECTRONICS",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/EC21201.pdf"
+              },
+              {
+                "subType": "Depth CORE IV",
+                "subCode": "EC29201",
+                "subName": "BASIC ELECTRONICS LABORATORY",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 2,
+                "syllabus": "syllabus/EC29201.pdf"
+              },
+              {
+                "subType": "Depth CORE V",
+                "subCode": "CY11003",
+                "subName": "CHEMISTRY",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/CY11003.pdf"
+              },
+              {
+                "subType": "Depth CORE VI",
+                "subCode": "CY19003",
+                "subName": "CHEMISTRY LABORATORY",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 2,
+                "syllabus": "syllabus/CY19003.pdf"
+              },
+              {
+                "subType": "Depth CORE VII",
+                "subCode": "EA10007",
+                "subName": "EXTRA ACADEMIC ACTIVITY-I",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 1,
+                "syllabus": "syllabus/EA10007.pdf"
+              }
+            ]
+          },
+          {
+            "name": "Semester : 2",
+            "subjects": [
+              {
+                "subType": "Depth CORE IX",
+                "subCode": "CS19003",
+                "subName": "PROGRAMMING AND DATA STRUCTURES LABORATORY",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 2,
+                "syllabus": "syllabus/CS19003.pdf"
+              },
+              {
+                "subType": "Depth CORE VIII",
+                "subCode": "CS10003",
+                "subName": "PROGRAMMING AND DATA STRUCTURES",
+                "LTP": [
+                  3,
+                  0,
+                  0
+                ],
+                "credits": 3,
+                "syllabus": "syllabus/CS10003.pdf"
+              },
+              {
+                "subType": "Depth CORE X",
+                "subCode": "MA11006",
+                "subName": "ORDINARY DIFFERENTIAL EQUATIONS",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/MA11006.pdf"
+              },
+              {
+                "subType": "Depth CORE XI",
+                "subCode": "MA11008",
+                "subName": "MULTIVARIABLE CALCULUS",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/MA11008.pdf"
+              },
+              {
+                "subType": "Depth CORE XII",
+                "subCode": "MA11010",
+                "subName": "DISCRETE MATHEMATICS",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/MA11010.pdf"
+              },
+              {
+                "subType": "Depth CORE XIII",
+                "subCode": "PH11003",
+                "subName": "PHYSICS OF WAVES",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/PH11003.pdf"
+              },
+              {
+                "subType": "Depth CORE XIV",
+                "subCode": "PH19003",
+                "subName": "PHYSICS LABORATORY",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 2,
+                "syllabus": "syllabus/PH19003.pdf"
+              },
+              {
+                "subType": "Depth CORE XV",
+                "subCode": "EA10008",
+                "subName": "EXTRA ACADEMIC ACTIVITY-II",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 1,
+                "syllabus": "syllabus/EA10008.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "courseName": "MATHEMATICS AND COMPUTING (BS-MS 5Y)",
+        "code": "MA3",
+        "curriculum": []
+      },
+      {
+        "courseName": "MATHEMATICS(2YR. M.SC.)",
+        "code": "MA4",
+        "curriculum": []
+      },
+      {
+        "courseName": "STATISTICS AND DATA SCIENCE (BS-MS 5Y)",
+        "code": "MA5",
+        "curriculum": []
+      },
+      {
+        "courseName": "MATHEMATICS  AND COMPUTING/ARTIFICIAL INTELLIGENCE MACHINE LEARNING AND APPLICATIONS",
+        "code": "MAA",
+        "curriculum": []
+      }
+    ]
+  },
+  {
+    "name": "Mechanical Engineering",
+    "courses": [
+      {
+        "courseName": "MECHANICAL ENGG.(B.TECH 4Y)",
+        "code": "ME",
+        "curriculum": [
+          {
+            "name": "Semester : 1",
+            "subjects": [
+              {
+                "subType": "Depth CORE C",
+                "subCode": "GE10001",
+                "subName": "GENDER SENSITIZATION",
+                "LTP": [
+                  0,
+                  0,
+                  0
+                ],
+                "credits": 0
+              },
+              {
+                "subType": "Depth CORE I",
+                "subCode": "MA11003",
+                "subName": "ADVANCED CALCULUS",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/MA11003.pdf"
+              },
+              {
+                "subType": "Depth CORE II",
+                "subCode": "PH11003",
+                "subName": "PHYSICS OF WAVES",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/PH11003.pdf"
+              },
+              {
+                "subType": "Depth CORE III",
+                "subCode": "PH19003",
+                "subName": "PHYSICS LABORATORY",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 2,
+                "syllabus": "syllabus/PH19003.pdf"
+              },
+              {
+                "subType": "Depth CORE IV",
+                "subCode": "CS10003",
+                "subName": "PROGRAMMING AND DATA STRUCTURES",
+                "LTP": [
+                  3,
+                  0,
+                  0
+                ],
+                "credits": 3,
+                "syllabus": "syllabus/CS10003.pdf"
+              },
+              {
+                "subType": "Depth CORE V",
+                "subCode": "CS19003",
+                "subName": "PROGRAMMING AND DATA STRUCTURES LABORATORY",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 2,
+                "syllabus": "syllabus/CS19003.pdf"
+              },
+              {
+                "subType": "Depth CORE VI",
+                "subCode": "EE11003",
+                "subName": "ELECTRICAL TECHNOLOGY",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/EE11003.pdf"
+              },
+              {
+                "subType": "Depth CORE VII",
+                "subCode": "ME29201",
+                "subName": "INTRODUCTION TO BASIC MANUFACTURING PROCESSES",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 2,
+                "syllabus": "syllabus/ME29201.pdf"
+              },
+              {
+                "subType": "Depth CORE VIII",
+                "subCode": "EA10007",
+                "subName": "EXTRA ACADEMIC ACTIVITY-I",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 1,
+                "syllabus": "syllabus/EA10007.pdf"
+              }
+            ]
+          },
+          {
+            "name": "Semester : 2",
+            "subjects": [
+              {
+                "subType": "Depth CORE IX",
+                "subCode": "MA11004",
+                "subName": "LINEAR ALGEBRA, NUMERICAL AND COMPLEX ANALYSIS",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/MA11004.pdf"
+              },
+              {
+                "subType": "Depth CORE X",
+                "subCode": "ME11003",
+                "subName": "BASIC ENGINEERING MECHANICS",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/ME11003.pdf"
+              },
+              {
+                "subType": "Depth CORE XI",
+                "subCode": "EC21201",
+                "subName": "BASIC ELECTRONICS",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/EC21201.pdf"
+              },
+              {
+                "subType": "Depth CORE XII",
+                "subCode": "EC29201",
+                "subName": "BASIC ELECTRONICS LABORATORY",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 2,
+                "syllabus": "syllabus/EC29201.pdf"
+              },
+              {
+                "subType": "Depth CORE XIII",
+                "subCode": "CY11003",
+                "subName": "CHEMISTRY",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/CY11003.pdf"
+              },
+              {
+                "subType": "Depth CORE XIV",
+                "subCode": "CY19003",
+                "subName": "CHEMISTRY LABORATORY",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 2,
+                "syllabus": "syllabus/CY19003.pdf"
+              },
+              {
+                "subType": "Depth CORE XV",
+                "subCode": "ME13002",
+                "subName": "ENGINEERING AND MACHINE DRAWING",
+                "LTP": [
+                  1,
+                  0,
+                  3
+                ],
+                "credits": 3,
+                "syllabus": "syllabus/ME13002.pdf"
+              },
+              {
+                "subType": "Depth CORE XVI",
+                "subCode": "EA10008",
+                "subName": "EXTRA ACADEMIC ACTIVITY-II",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 1,
+                "syllabus": "syllabus/EA10008.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "courseName": "MECH.ENGG.  MANUF.SCIENCE AND ENGG. (M.TECH DUAL 5Y)",
+        "code": "ME1",
+        "curriculum": []
+      },
+      {
+        "courseName": "MECH.ENGG.  MECH.SYSTEMS DESIGN (M.TECH DUAL 5Y)",
+        "code": "ME3",
+        "curriculum": []
+      },
+      {
+        "courseName": "MECH.ENGG. THERMAL AND FLUIDS ENGINEERING(M.TECH DUAL 5Y)",
+        "code": "ME6",
+        "curriculum": []
+      },
+      {
+        "courseName": "MECHANICAL ENGINEERING/ARTIFICIAL INTELLIGENCE MACHINE LEARNING AND APPLICATIONS",
+        "code": "MEA",
+        "curriculum": []
+      },
+      {
+        "courseName": "MECH.ENGG.  DUAL DEGREE IN ANY SPL. (M.TECH DUAL 5Y)",
+        "code": "MED",
+        "curriculum": []
+      },
+      {
+        "courseName": "MECHANICAL ENGINEERING/FINANCIAL ENGINEERING",
+        "code": "MEJ",
+        "curriculum": []
+      },
+      {
+        "courseName": "MECHANICAL ENGINEERING/ENGINEERING ENTREPRENEURSHIP",
+        "code": "MEK",
+        "curriculum": []
+      },
+      {
+        "courseName": "MECHANICAL ENGINEERING/PETROLEUM ENGINEERING",
+        "code": "MEP",
+        "curriculum": []
+      },
+      {
+        "courseName": "MANUFACTURING SCIENCE AND ENGG.(B.TECH 4Y)",
+        "code": "MF",
+        "curriculum": [
+          {
+            "name": "Semester : 1",
+            "subjects": [
+              {
+                "subType": "Depth CORE C",
+                "subCode": "GE10001",
+                "subName": "GENDER SENSITIZATION",
+                "LTP": [
+                  0,
+                  0,
+                  0
+                ],
+                "credits": 0
+              },
+              {
+                "subType": "Depth CORE I",
+                "subCode": "MA11003",
+                "subName": "ADVANCED CALCULUS",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/MA11003.pdf"
+              },
+              {
+                "subType": "Depth CORE II",
+                "subCode": "PH11003",
+                "subName": "PHYSICS OF WAVES",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/PH11003.pdf"
+              },
+              {
+                "subType": "Depth CORE III",
+                "subCode": "PH19003",
+                "subName": "PHYSICS LABORATORY",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 2,
+                "syllabus": "syllabus/PH19003.pdf"
+              },
+              {
+                "subType": "Depth CORE IV",
+                "subCode": "CS10003",
+                "subName": "PROGRAMMING AND DATA STRUCTURES",
+                "LTP": [
+                  3,
+                  0,
+                  0
+                ],
+                "credits": 3,
+                "syllabus": "syllabus/CS10003.pdf"
+              },
+              {
+                "subType": "Depth CORE V",
+                "subCode": "CS19003",
+                "subName": "PROGRAMMING AND DATA STRUCTURES LABORATORY",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 2,
+                "syllabus": "syllabus/CS19003.pdf"
+              },
+              {
+                "subType": "Depth CORE VI",
+                "subCode": "EE11003",
+                "subName": "ELECTRICAL TECHNOLOGY",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/EE11003.pdf"
+              },
+              {
+                "subType": "Depth CORE VII",
+                "subCode": "ME29201",
+                "subName": "INTRODUCTION TO BASIC MANUFACTURING PROCESSES",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 2,
+                "syllabus": "syllabus/ME29201.pdf"
+              },
+              {
+                "subType": "Depth CORE VIII",
+                "subCode": "EA10007",
+                "subName": "EXTRA ACADEMIC ACTIVITY-I",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 1,
+                "syllabus": "syllabus/EA10007.pdf"
+              }
+            ]
+          },
+          {
+            "name": "Semester : 2",
+            "subjects": [
+              {
+                "subType": "Depth CORE IX",
+                "subCode": "MA11004",
+                "subName": "LINEAR ALGEBRA, NUMERICAL AND COMPLEX ANALYSIS",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/MA11004.pdf"
+              },
+              {
+                "subType": "Depth CORE X",
+                "subCode": "ME11003",
+                "subName": "BASIC ENGINEERING MECHANICS",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/ME11003.pdf"
+              },
+              {
+                "subType": "Depth CORE XI",
+                "subCode": "EC21201",
+                "subName": "BASIC ELECTRONICS",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/EC21201.pdf"
+              },
+              {
+                "subType": "Depth CORE XII",
+                "subCode": "EC29201",
+                "subName": "BASIC ELECTRONICS LABORATORY",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 2,
+                "syllabus": "syllabus/EC29201.pdf"
+              },
+              {
+                "subType": "Depth CORE XIII",
+                "subCode": "CY11003",
+                "subName": "CHEMISTRY",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/CY11003.pdf"
+              },
+              {
+                "subType": "Depth CORE XIV",
+                "subCode": "CY19003",
+                "subName": "CHEMISTRY LABORATORY",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 2,
+                "syllabus": "syllabus/CY19003.pdf"
+              },
+              {
+                "subType": "Depth CORE XV",
+                "subCode": "ME13002",
+                "subName": "ENGINEERING AND MACHINE DRAWING",
+                "LTP": [
+                  1,
+                  0,
+                  3
+                ],
+                "credits": 3,
+                "syllabus": "syllabus/ME13002.pdf"
+              },
+              {
+                "subType": "Depth CORE XVI",
+                "subCode": "EA10008",
+                "subName": "EXTRA ACADEMIC ACTIVITY-II",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 1,
+                "syllabus": "syllabus/EA10008.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "courseName": "MANUF. SCI AND ENGG.IND. ENGG.MAN. (M.TECH DUAL 5Y)",
+        "code": "MF1",
+        "curriculum": []
+      },
+      {
+        "courseName": "MANUFACTURING SCIENCE AND ENGINEERING/ARTIFICIAL INTELLIGENCE MACHINE LEARNING AND APPLICATIONS",
+        "code": "MFA",
+        "curriculum": []
+      },
+      {
+        "courseName": "MANUFACTURING SCIENCE AND ENGINEERING/FINANCIAL ENGINEERING",
+        "code": "MFJ",
+        "curriculum": []
+      },
+      {
+        "courseName": "MANUFACTURING SCIENCE AND ENGINEERING/ENGINEERING ENTREPRENEURSHIP",
+        "code": "MFK",
+        "curriculum": []
+      }
+    ]
+  },
+  {
+    "name": "Metallurgical and Materials Engineering",
+    "courses": [
+      {
+        "courseName": "METALL. AND MATERIALS ENGG.(B.TECH 4Y)",
+        "code": "MT",
+        "curriculum": [
+          {
+            "name": "Semester : 1",
+            "subjects": [
+              {
+                "subType": "Depth CORE C",
+                "subCode": "GE10001",
+                "subName": "GENDER SENSITIZATION",
+                "LTP": [
+                  0,
+                  0,
+                  0
+                ],
+                "credits": 0
+              },
+              {
+                "subType": "Depth CORE I",
+                "subCode": "MA11003",
+                "subName": "ADVANCED CALCULUS",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/MA11003.pdf"
+              },
+              {
+                "subType": "Depth CORE II",
+                "subCode": "EC21201",
+                "subName": "BASIC ELECTRONICS",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/EC21201.pdf"
+              },
+              {
+                "subType": "Depth CORE III",
+                "subCode": "EC29201",
+                "subName": "BASIC ELECTRONICS LABORATORY",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 2,
+                "syllabus": "syllabus/EC29201.pdf"
+              },
+              {
+                "subType": "Depth CORE IV",
+                "subCode": "ME11003",
+                "subName": "BASIC ENGINEERING MECHANICS",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/ME11003.pdf"
+              },
+              {
+                "subType": "Depth CORE V",
+                "subCode": "CY11003",
+                "subName": "CHEMISTRY",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/CY11003.pdf"
+              },
+              {
+                "subType": "Depth CORE VI",
+                "subCode": "CY19003",
+                "subName": "CHEMISTRY LABORATORY",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 2,
+                "syllabus": "syllabus/CY19003.pdf"
+              },
+              {
+                "subType": "Depth CORE VII",
+                "subCode": "CE13003",
+                "subName": "ENGINEERING DRAWING AND COMPUTER GRAPHICS",
+                "LTP": [
+                  1,
+                  0,
+                  3
+                ],
+                "credits": 3,
+                "syllabus": "syllabus/CE13003.pdf"
+              },
+              {
+                "subType": "Depth CORE VIII",
+                "subCode": "EA10007",
+                "subName": "EXTRA ACADEMIC ACTIVITY-I",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 1,
+                "syllabus": "syllabus/EA10007.pdf"
+              }
+            ]
+          },
+          {
+            "name": "Semester : 2",
+            "subjects": [
+              {
+                "subType": "Depth CORE IX",
+                "subCode": "MA11004",
+                "subName": "LINEAR ALGEBRA, NUMERICAL AND COMPLEX ANALYSIS",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/MA11004.pdf"
+              },
+              {
+                "subType": "Depth CORE X",
+                "subCode": "CS10003",
+                "subName": "PROGRAMMING AND DATA STRUCTURES",
+                "LTP": [
+                  3,
+                  0,
+                  0
+                ],
+                "credits": 3,
+                "syllabus": "syllabus/CS10003.pdf"
+              },
+              {
+                "subType": "Depth CORE XI",
+                "subCode": "CS19003",
+                "subName": "PROGRAMMING AND DATA STRUCTURES LABORATORY",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 2,
+                "syllabus": "syllabus/CS19003.pdf"
+              },
+              {
+                "subType": "Depth CORE XII",
+                "subCode": "EE11003",
+                "subName": "ELECTRICAL TECHNOLOGY",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/EE11003.pdf"
+              },
+              {
+                "subType": "Depth CORE XIII",
+                "subCode": "EN19003",
+                "subName": "ENGINEERING LABORATORY",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 2,
+                "syllabus": "syllabus/EN19003.pdf"
+              },
+              {
+                "subType": "Depth CORE XIV",
+                "subCode": "PH11003",
+                "subName": "PHYSICS OF WAVES",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/PH11003.pdf"
+              },
+              {
+                "subType": "Depth CORE XV",
+                "subCode": "PH19003",
+                "subName": "PHYSICS LABORATORY",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 2,
+                "syllabus": "syllabus/PH19003.pdf"
+              },
+              {
+                "subType": "Depth CORE XVI",
+                "subCode": "EA10008",
+                "subName": "EXTRA ACADEMIC ACTIVITY-II",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 1,
+                "syllabus": "syllabus/EA10008.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "courseName": "METALL AND MAT.ENGG.  METALL.ENGG. (M.TECH DUAL 5Y)",
+        "code": "MT1",
+        "curriculum": []
+      },
+      {
+        "courseName": "METALLURGICAL AND MATERIALS ENGINEERING/ARTIFICIAL INTELLIGENCE MACHINE LEARNING AND APPLICATIONS",
+        "code": "MTA",
+        "curriculum": []
+      },
+      {
+        "courseName": "METALLURGICAL AND MATERIALS ENGINEERING/FINANCIAL ENGINEERING",
+        "code": "MTJ",
+        "curriculum": []
+      },
+      {
+        "courseName": "METALLURGICAL AND MATERIALS ENGINEERING/ENGINEERING ENTREPRENEURSHIP",
+        "code": "MTK",
+        "curriculum": []
+      }
+    ]
+  },
+  {
+    "name": "Mining Engineering",
+    "courses": [
+      {
+        "courseName": "MINING ENGG.(B.TECH 4Y)",
+        "code": "MI",
+        "curriculum": [
+          {
+            "name": "Semester : 1",
+            "subjects": [
+              {
+                "subType": "Depth CORE C",
+                "subCode": "GE10001",
+                "subName": "GENDER SENSITIZATION",
+                "LTP": [
+                  0,
+                  0,
+                  0
+                ],
+                "credits": 0
+              },
+              {
+                "subType": "Depth CORE I",
+                "subCode": "MA11003",
+                "subName": "ADVANCED CALCULUS",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/MA11003.pdf"
+              },
+              {
+                "subType": "Depth CORE II",
+                "subCode": "EC21201",
+                "subName": "BASIC ELECTRONICS",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/EC21201.pdf"
+              },
+              {
+                "subType": "Depth CORE III",
+                "subCode": "EC29201",
+                "subName": "BASIC ELECTRONICS LABORATORY",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 2,
+                "syllabus": "syllabus/EC29201.pdf"
+              },
+              {
+                "subType": "Depth CORE IV",
+                "subCode": "ME11003",
+                "subName": "BASIC ENGINEERING MECHANICS",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/ME11003.pdf"
+              },
+              {
+                "subType": "Depth CORE V",
+                "subCode": "EE11003",
+                "subName": "ELECTRICAL TECHNOLOGY",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/EE11003.pdf"
+              },
+              {
+                "subType": "Depth CORE VI",
+                "subCode": "CE13003",
+                "subName": "ENGINEERING DRAWING AND COMPUTER GRAPHICS",
+                "LTP": [
+                  1,
+                  0,
+                  3
+                ],
+                "credits": 3,
+                "syllabus": "syllabus/CE13003.pdf"
+              },
+              {
+                "subType": "Depth CORE VII",
+                "subCode": "EA10007",
+                "subName": "EXTRA ACADEMIC ACTIVITY-I",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 1,
+                "syllabus": "syllabus/EA10007.pdf"
+              }
+            ]
+          },
+          {
+            "name": "Semester : 2",
+            "subjects": [
+              {
+                "subType": "Depth CORE IX",
+                "subCode": "CS10003",
+                "subName": "PROGRAMMING AND DATA STRUCTURES",
+                "LTP": [
+                  3,
+                  0,
+                  0
+                ],
+                "credits": 3,
+                "syllabus": "syllabus/CS10003.pdf"
+              },
+              {
+                "subType": "Depth CORE VIII",
+                "subCode": "MA11004",
+                "subName": "LINEAR ALGEBRA, NUMERICAL AND COMPLEX ANALYSIS",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/MA11004.pdf"
+              },
+              {
+                "subType": "Depth CORE X",
+                "subCode": "CS19003",
+                "subName": "PROGRAMMING AND DATA STRUCTURES LABORATORY",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 2,
+                "syllabus": "syllabus/CS19003.pdf"
+              },
+              {
+                "subType": "Depth CORE XI",
+                "subCode": "CY11003",
+                "subName": "CHEMISTRY",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/CY11003.pdf"
+              },
+              {
+                "subType": "Depth CORE XII",
+                "subCode": "CY19003",
+                "subName": "CHEMISTRY LABORATORY",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 2,
+                "syllabus": "syllabus/CY19003.pdf"
+              },
+              {
+                "subType": "Depth CORE XIII",
+                "subCode": "PH11003",
+                "subName": "PHYSICS OF WAVES",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/PH11003.pdf"
+              },
+              {
+                "subType": "Depth CORE XIV",
+                "subCode": "PH19003",
+                "subName": "PHYSICS LABORATORY",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 2,
+                "syllabus": "syllabus/PH19003.pdf"
+              },
+              {
+                "subType": "Depth CORE XV",
+                "subCode": "EA10008",
+                "subName": "EXTRA ACADEMIC ACTIVITY-II",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 1,
+                "syllabus": "syllabus/EA10008.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "courseName": "MINING.ENGG. (M.TECH DUAL 5Y)",
+        "code": "MI1",
+        "curriculum": []
+      },
+      {
+        "courseName": "MINING ENGINEERING SAFETY ENGG. (M.TECH DUAL 5Y)",
+        "code": "MI3",
+        "curriculum": []
+      },
+      {
+        "courseName": "MINING ENGINEERING/ARTIFICIAL INTELLIGENCE MACHINE LEARNING AND APPLICATIONS",
+        "code": "MIA",
+        "curriculum": []
+      },
+      {
+        "courseName": "MINING ENGINEERING/FINANCIAL ENGINEERING",
+        "code": "MIJ",
+        "curriculum": []
+      },
+      {
+        "courseName": "MINING ENGINEERING/ENGINEERING ENTREPRENEURSHIP",
+        "code": "MIK",
+        "curriculum": []
+      },
+      {
+        "courseName": "MINING ENGINEERING/PETROLEUM ENGINEERING",
+        "code": "MIP",
+        "curriculum": []
+      }
+    ]
+  },
+  {
+    "name": "Ocean Engg and Naval Architecture",
+    "courses": [
+      {
+        "courseName": "OCEAN ENGG.AND NAVAL ARCH. (B.TECH 4Y)",
+        "code": "NA",
+        "curriculum": [
+          {
+            "name": "Semester : 1",
+            "subjects": [
+              {
+                "subType": "Depth CORE C",
+                "subCode": "GE10001",
+                "subName": "GENDER SENSITIZATION",
+                "LTP": [
+                  0,
+                  0,
+                  0
+                ],
+                "credits": 0
+              },
+              {
+                "subType": "Depth CORE I",
+                "subCode": "MA11003",
+                "subName": "ADVANCED CALCULUS",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/MA11003.pdf"
+              },
+              {
+                "subType": "Depth CORE II",
+                "subCode": "CY11003",
+                "subName": "CHEMISTRY",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/CY11003.pdf"
+              },
+              {
+                "subType": "Depth CORE III",
+                "subCode": "CY19003",
+                "subName": "CHEMISTRY LABORATORY",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 2,
+                "syllabus": "syllabus/CY19003.pdf"
+              },
+              {
+                "subType": "Depth CORE IV",
+                "subCode": "CS10003",
+                "subName": "PROGRAMMING AND DATA STRUCTURES",
+                "LTP": [
+                  3,
+                  0,
+                  0
+                ],
+                "credits": 3,
+                "syllabus": "syllabus/CS10003.pdf"
+              },
+              {
+                "subType": "Depth CORE V",
+                "subCode": "CS19003",
+                "subName": "PROGRAMMING AND DATA STRUCTURES LABORATORY",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 2,
+                "syllabus": "syllabus/CS19003.pdf"
+              },
+              {
+                "subType": "Depth CORE VI",
+                "subCode": "CE13003",
+                "subName": "ENGINEERING DRAWING AND COMPUTER GRAPHICS",
+                "LTP": [
+                  1,
+                  0,
+                  3
+                ],
+                "credits": 3,
+                "syllabus": "syllabus/CE13003.pdf"
+              },
+              {
+                "subType": "Depth CORE VII",
+                "subCode": "EN19003",
+                "subName": "ENGINEERING LABORATORY",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 2,
+                "syllabus": "syllabus/EN19003.pdf"
+              },
+              {
+                "subType": "Depth CORE VIII",
+                "subCode": "EA10007",
+                "subName": "EXTRA ACADEMIC ACTIVITY-I",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 1,
+                "syllabus": "syllabus/EA10007.pdf"
+              }
+            ]
+          },
+          {
+            "name": "Semester : 2",
+            "subjects": [
+              {
+                "subType": "Depth CORE IX",
+                "subCode": "MA11004",
+                "subName": "LINEAR ALGEBRA, NUMERICAL AND COMPLEX ANALYSIS",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/MA11004.pdf"
+              },
+              {
+                "subType": "Depth CORE X",
+                "subCode": "EC21201",
+                "subName": "BASIC ELECTRONICS",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/EC21201.pdf"
+              },
+              {
+                "subType": "Depth CORE XI",
+                "subCode": "EC29201",
+                "subName": "BASIC ELECTRONICS LABORATORY",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 2,
+                "syllabus": "syllabus/EC29201.pdf"
+              },
+              {
+                "subType": "Depth CORE XII",
+                "subCode": "EE11003",
+                "subName": "ELECTRICAL TECHNOLOGY",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/EE11003.pdf"
+              },
+              {
+                "subType": "Depth CORE XIII",
+                "subCode": "ME11003",
+                "subName": "BASIC ENGINEERING MECHANICS",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/ME11003.pdf"
+              },
+              {
+                "subType": "Depth CORE XIV",
+                "subCode": "PH11003",
+                "subName": "PHYSICS OF WAVES",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/PH11003.pdf"
+              },
+              {
+                "subType": "Depth CORE XV",
+                "subCode": "PH19003",
+                "subName": "PHYSICS LABORATORY",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 2,
+                "syllabus": "syllabus/PH19003.pdf"
+              },
+              {
+                "subType": "Depth CORE XVI",
+                "subCode": "EA10008",
+                "subName": "EXTRA ACADEMIC ACTIVITY-II",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 1,
+                "syllabus": "syllabus/EA10008.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "courseName": "OCEAN AND NAVAL ARCH /  OCEAN ENGG. NAVAL ARCH. (M.TECH DUAL 5Y)",
+        "code": "NA1",
+        "curriculum": []
+      },
+      {
+        "courseName": "OCEAN ENGINEERING AND NAVAL ARCHITECTURE/ARTIFICIAL INTELLIGENCE MACHINE LEARNING AND APPLICATIONS",
+        "code": "NAA",
+        "curriculum": []
+      },
+      {
+        "courseName": "OCEAN ENGG. AND NAVAL ARCHITECTURE/FINANCIAL ENGINEERING",
+        "code": "NAJ",
+        "curriculum": []
+      },
+      {
+        "courseName": "OCEAN ENGG. AND NAVAL ARCHITECTURE/ENGINEERING ENTREPRENEURSHIP",
+        "code": "NAK",
+        "curriculum": []
+      }
+    ]
+  },
+  {
+    "name": "Physics",
+    "courses": [
+      {
+        "courseName": "PHYSICS (M.SC. 5Y)",
+        "code": "PH",
+        "curriculum": []
+      },
+      {
+        "courseName": "PHYSICS (B.S.4Y)",
+        "code": "PH2",
+        "curriculum": [
+          {
+            "name": "Semester : 1",
+            "subjects": [
+              {
+                "subType": "Depth CORE C",
+                "subCode": "GE10001",
+                "subName": "GENDER SENSITIZATION",
+                "LTP": [
+                  0,
+                  0,
+                  0
+                ],
+                "credits": 0
+              },
+              {
+                "subType": "Depth CORE I",
+                "subCode": "MA11003",
+                "subName": "ADVANCED CALCULUS",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/MA11003.pdf"
+              },
+              {
+                "subType": "Depth CORE II",
+                "subCode": "PH11003",
+                "subName": "PHYSICS OF WAVES",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/PH11003.pdf"
+              },
+              {
+                "subType": "Depth CORE III",
+                "subCode": "PH19003",
+                "subName": "PHYSICS LABORATORY",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 2,
+                "syllabus": "syllabus/PH19003.pdf"
+              },
+              {
+                "subType": "Depth CORE IV",
+                "subCode": "EC21201",
+                "subName": "BASIC ELECTRONICS",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/EC21201.pdf"
+              },
+              {
+                "subType": "Depth CORE V",
+                "subCode": "EC29201",
+                "subName": "BASIC ELECTRONICS LABORATORY",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 2,
+                "syllabus": "syllabus/EC29201.pdf"
+              },
+              {
+                "subType": "Depth CORE VI",
+                "subCode": "CS10003",
+                "subName": "PROGRAMMING AND DATA STRUCTURES",
+                "LTP": [
+                  3,
+                  0,
+                  0
+                ],
+                "credits": 3,
+                "syllabus": "syllabus/CS10003.pdf"
+              },
+              {
+                "subType": "Depth CORE VII",
+                "subCode": "CS19003",
+                "subName": "PROGRAMMING AND DATA STRUCTURES LABORATORY",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 2,
+                "syllabus": "syllabus/CS19003.pdf"
+              },
+              {
+                "subType": "Depth CORE VIII",
+                "subCode": "EA10007",
+                "subName": "EXTRA ACADEMIC ACTIVITY-I",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 1,
+                "syllabus": "syllabus/EA10007.pdf"
+              }
+            ]
+          },
+          {
+            "name": "Semester : 2",
+            "subjects": [
+              {
+                "subType": "Depth CORE IX",
+                "subCode": "MA11004",
+                "subName": "LINEAR ALGEBRA, NUMERICAL AND COMPLEX ANALYSIS",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/MA11004.pdf"
+              },
+              {
+                "subType": "Depth CORE X",
+                "subCode": "CY11003",
+                "subName": "CHEMISTRY",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/CY11003.pdf"
+              },
+              {
+                "subType": "Depth CORE XI",
+                "subCode": "CY19003",
+                "subName": "CHEMISTRY LABORATORY",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 2,
+                "syllabus": "syllabus/CY19003.pdf"
+              },
+              {
+                "subType": "Depth CORE XII",
+                "subCode": "EE11003",
+                "subName": "ELECTRICAL TECHNOLOGY",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/EE11003.pdf"
+              },
+              {
+                "subType": "Depth CORE XIII",
+                "subCode": "EN19003",
+                "subName": "ENGINEERING LABORATORY",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 2,
+                "syllabus": "syllabus/EN19003.pdf"
+              },
+              {
+                "subType": "Depth CORE XIV",
+                "subCode": "ME11003",
+                "subName": "BASIC ENGINEERING MECHANICS",
+                "LTP": [
+                  3,
+                  1,
+                  0
+                ],
+                "credits": 4,
+                "syllabus": "syllabus/ME11003.pdf"
+              },
+              {
+                "subType": "Depth CORE XV",
+                "subCode": "PH19004",
+                "subName": "INTERACTIVE PHYSICS LABORATORY",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 2,
+                "syllabus": "syllabus/PH19004.pdf"
+              },
+              {
+                "subType": "Depth CORE XVI",
+                "subCode": "EA10008",
+                "subName": "EXTRA ACADEMIC ACTIVITY-II",
+                "LTP": [
+                  0,
+                  0,
+                  3
+                ],
+                "credits": 1,
+                "syllabus": "syllabus/EA10008.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "courseName": "PHYSICS (BS-MS 5Y)",
+        "code": "PH3",
+        "curriculum": []
+      },
+      {
+        "courseName": "PHYSICS(2YR. M.SC.)",
+        "code": "PH4",
+        "curriculum": []
+      },
+      {
+        "courseName": "PHYSICS/ARTIFICIAL INTELLIGENCE MACHINE LEARNING AND APPLICATIONS",
+        "code": "PHA",
+        "curriculum": []
+      }
+    ]
+  },
+  {
+    "name": "Preparatory",
+    "courses": [
+      {
+        "courseName": "PREPARATORY",
+        "code": "PP",
+        "curriculum": []
+      }
+    ]
+  },
+  {
+    "name": "Rajendra Mishra School of Engg Entrepreneurship",
+    "courses": [
+      {
+        "courseName": "BTECH IN PARENT DEPARTMENT/MTECH IN ENTREPRENEURSHIP ENGINEERING",
+        "code": "EP",
+        "curriculum": []
+      }
+    ]
+  },
+  {
+    "name": "School of Medical Science and Technology",
+    "courses": [
+      {
+        "courseName": "MEDICAL PHYSICS (3YR. M.SC.)",
+        "code": "MM4",
+        "curriculum": []
+      },
+      {
+        "courseName": "NUCLEAR MEDICINE (2YR. M.SC.)",
+        "code": "MM5",
+        "curriculum": []
+      },
+      {
+        "courseName": "MOLECULAR MEDICAL MICROBIOLOGY (2YR. M.SC.)",
+        "code": "MM6",
+        "curriculum": []
+      }
+    ]
+  },
+  {
+    "name": "Vinod Gupta School of Management",
+    "courses": [
+      {
+        "courseName": "BTECH IN PARENT DEPARTMENT/MTECH IN FINANCIAL  ENGINEERING",
+        "code": "FP",
+        "curriculum": []
+      }
+    ]
+  }
+]
