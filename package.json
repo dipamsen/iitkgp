@@ -4,7 +4,8 @@
   "description": "Coursework",
   "type": "module",
   "scripts": {
-    "fetch-curr": "node scripts/fetch-curriculum.js"
+    "fetch-curr": "node scripts/fetch-curriculum.js",
+    "dev": "cd sites/curriculum && npm run dev"
   },
   "keywords": [],
   "author": "Dipam Sen",

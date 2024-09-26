@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App.tsx";
+import CGPAView from "./CGPAView.tsx";
 import {
   Box,
   Container,
@@ -11,11 +12,17 @@ import {
   Link,
 } from "@mui/material";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Header from "./components/Header.tsx";
+import "./styles.css";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
+  },
+  {
+    path: "/cgpa",
+    element: <CGPAView />,
   },
 ]);
 
@@ -25,7 +32,7 @@ const theme = createTheme({
     dark: true,
   },
   typography: {
-    fontFamily: "'Playpen Sans', sans-serif",
+    fontFamily: "Lexend, sans-serif",
   },
 });
 
@@ -36,6 +43,7 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
       <Box
         sx={{ display: "flex", flexDirection: "column", minHeight: "100vh" }}
       >
+        <Header />
         <RouterProvider router={router} />
         <Box component="footer" sx={{ mt: "auto", py: 2 }}>
           <Container maxWidth="sm" sx={{ textAlign: "center" }}>
