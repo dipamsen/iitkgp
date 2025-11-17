@@ -120,8 +120,6 @@ function CGPAView() {
             );
         }
 
-        console.log("Grades loaded:", initGrades);
-
         setSemWiseGrades(initGrades);
       }
 
@@ -156,6 +154,14 @@ function CGPAView() {
       JSON.stringify(semWiseGrades)
     );
   }, [semWiseGrades]);
+
+  useEffect(() => {
+    if (electiveCredits.length === 0) return;
+    localStorage.setItem(
+      "kgp-curriculum-elective-credits",
+      JSON.stringify(electiveCredits)
+    );
+  }, [electiveCredits]);
 
   const course = selectedDept
     ? data[selectedDept - 1]?.courses.find((c) => c.code === selectedCourse)
@@ -205,7 +211,6 @@ function CGPAView() {
                     setStartYear(_startYear);
                     setSelectedDept(_selectedDept);
                     setSelectedCourse(_selectedCourse);
-                    setConfigModal(false);
                     localStorage.setItem(
                       "kgp-curriculum",
                       JSON.stringify({
@@ -213,6 +218,11 @@ function CGPAView() {
                         course: _selectedCourse,
                       })
                     );
+                    localStorage.removeItem("kgp-curriculum-grades");
+                    localStorage.removeItem("kgp-curriculum-elective-credits");
+                    setSemWiseGrades([]);
+                    setElectiveCredits({});
+                    setConfigModal(false);
                   },
                 }}
               >
@@ -307,6 +317,7 @@ function CGPAView() {
                     }, 0)
                   );
                 });
+                console.log("SemwiseGPA:", semesterGPA);
                 const cumulativeGPA = new Array(numSems).fill(0).map((_, i) => {
                   // cgpa for sem 1 to i
                   return (
