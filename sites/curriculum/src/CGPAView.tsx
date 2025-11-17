@@ -21,31 +21,7 @@ import {
   Typography,
 } from "@mui/material";
 import { useEffect, useState } from "react";
-
-interface Department {
-  name: string;
-  courses: Course[];
-}
-
-interface Course {
-  courseName: string;
-  code: string;
-  curriculum: Semester[];
-}
-
-interface Semester {
-  name: string;
-  subjects: Subject[];
-}
-
-interface Subject {
-  subType: string;
-  subCode: string;
-  subName: string;
-  LTP: number[];
-  credits: number;
-  syllabus?: string;
-}
+import { Department, Subject } from "./types";
 
 const grades = {
   EX: 10,
@@ -76,6 +52,16 @@ function CGPAView() {
   const [semWiseGrades, setSemWiseGrades] = useState<Record<string, Grade>[]>(
     []
   );
+  const [electiveCredits, setElectiveCredits] = useState<
+    Record<string, number>
+  >({});
+
+  console.log(semWiseGrades, electiveCredits)
+
+  const subkey = (sub: Subject) => (sub.elective ? sub.subType : sub.subCode);
+
+  const credits = (sub: Subject) =>
+    sub.elective ? electiveCredits[subkey(sub)] : sub.credits;
 
   useEffect(() => {
     fetch(
@@ -101,6 +87,7 @@ function CGPAView() {
     // first time, choose config (yr, dept, course)
     // save to local storage
     // if local storage exists, load from there
+    console.log("Data loaded:", data);
 
     if (localStorage.getItem("kgp-curriculum")) {
       const { year, course } = JSON.parse(
@@ -128,18 +115,39 @@ function CGPAView() {
             .find((dept) => dept.courses.some((crs) => crs.code === course))!
             .courses.find((x) => x.code === course)!
             .curriculum[i].subjects.reduce(
-              (acc, curr) => ({ ...acc, [curr.subCode]: "EX" }),
+              (acc, curr) => ({ ...acc, [subkey(curr)]: "EX" }),
               {}
             );
         }
 
+        console.log("Grades loaded:", initGrades);
+
         setSemWiseGrades(initGrades);
       }
-    } else {
+
+      if (localStorage.getItem("kgp-curriculum-elective-credits")) {
+        const initCredits = JSON.parse(
+          localStorage.getItem("kgp-curriculum-elective-credits")!
+        );
+        setElectiveCredits(initCredits);
+      } else {
+        const electiveCredits = data
+          .find((dept) => dept.courses.some((crs) => crs.code === course))!
+          .courses.find((x) => x.code === course)!
+          .curriculum.reduce<Subject[]>((acc, curr) => {
+            return acc.concat(curr.subjects);
+          }, [])
+          .reduce((acc, curr) => {
+            if (!curr.elective) return acc;
+            return { ...acc, [subkey(curr)]: 4 };
+          }, {});
+        setElectiveCredits(electiveCredits);
+      }
+    } else if (configModal == false) {
       // show modal
       setConfigModal(true);
     }
-  }, [data]);
+  }, [data, configModal]);
 
   useEffect(() => {
     if (semWiseGrades.length === 0) return;
@@ -168,7 +176,7 @@ function CGPAView() {
   return (
     <>
       <Container maxWidth="lg" sx={{ marginTop: "20px", flex: 1 }}>
-        {data.length === 0 ? (
+        {(data.length === 0) ? (
           <Typography>Loading...</Typography>
         ) : (
           <>
@@ -283,7 +291,7 @@ function CGPAView() {
                 </DialogActions>
               </Dialog>
             </Box>
-            {course &&
+            {(course && semWiseGrades.length > 0) &&
               (() => {
                 const numSems = course.curriculum.length;
                 const semesterGPA = course.curriculum.map((semester, i) => {
@@ -291,11 +299,11 @@ function CGPAView() {
                     semester.subjects.reduce((acc, curr) => {
                       return (
                         acc +
-                        curr.credits * grades[semWiseGrades[i][curr.subCode]]
+                        credits(curr) * grades[semWiseGrades[i][subkey(curr)]]
                       );
                     }, 0) /
                     semester.subjects.reduce((acc, curr) => {
-                      return acc + curr.credits;
+                      return acc + credits(curr);
                     }, 0)
                   );
                 });
@@ -308,8 +316,8 @@ function CGPAView() {
                         curr.subjects.reduce((acc, curr) => {
                           return (
                             acc +
-                            curr.credits *
-                              grades[semWiseGrades[j][curr.subCode]]
+                            credits(curr) *
+                              grades[semWiseGrades[j][subkey(curr)]]
                           );
                         }, 0)
                       );
@@ -318,7 +326,7 @@ function CGPAView() {
                       return (
                         acc +
                         curr.subjects.reduce((acc, curr) => {
-                          return acc + curr.credits;
+                          return acc + credits(curr);
                         }, 0)
                       );
                     }, 0)
@@ -357,16 +365,50 @@ function CGPAView() {
                               </TableHead>
                               <TableBody>
                                 {semester.subjects.map((subject) => (
-                                  <TableRow key={subject.subCode}>
+                                  <TableRow key={subkey(subject)}>
                                     <TableCell>{subject.subType}</TableCell>
-                                    <TableCell>{subject.subCode}</TableCell>
+                                    <TableCell>
+                                      {subject.elective ? "" : subject.subCode}
+                                    </TableCell>
                                     <TableCell sx={{ fontWeight: "500" }}>
-                                      {subject.subName}
+                                      {!subject.elective && subject.subName}
                                     </TableCell>
                                     <TableCell>
-                                      {subject.LTP.join("-")}
+                                      {!subject.elective &&
+                                        subject.LTP.join("-")}
                                     </TableCell>
-                                    <TableCell>{subject.credits}</TableCell>
+                                    <TableCell>
+                                      {!subject.elective ? (
+                                        subject.credits
+                                      ) : (
+                                        <FormControl
+                                          variant="standard"
+                                          size="small"
+                                        >
+                                          <NativeSelect
+                                            // labelId="credits"
+                                            value={
+                                              electiveCredits[subkey(subject)]
+                                            }
+                                            onChange={(e) => {
+                                              const newCredits = {
+                                                ...electiveCredits,
+                                              };
+                                              newCredits[subkey(subject)] = +e
+                                                .target
+                                                .value;
+                                              setElectiveCredits(newCredits);
+                                            }}
+                                          >
+                                            {[2, 3, 4, 5, 6].map((i) => (
+                                              <option key={i} value={i}>
+                                                {i}
+                                              </option>
+                                            ))}
+                                          </NativeSelect>
+                                        </FormControl>
+                                      )}
+                                    </TableCell>
                                     <TableCell>
                                       <FormControl
                                         variant="standard"
@@ -374,9 +416,9 @@ function CGPAView() {
                                       >
                                         <NativeSelect
                                           // labelId="grade"
-                                          disabled={subject.credits === 0}
+                                          disabled={credits(subject) === 0}
                                           value={
-                                            semWiseGrades[i][subject.subCode]
+                                            semWiseGrades[i][subkey(subject)]
                                           }
                                           onChange={(e) => {
                                             const newGrades = [
@@ -384,7 +426,7 @@ function CGPAView() {
                                             ];
                                             newGrades[i] = {
                                               ...newGrades[i],
-                                              [subject.subCode]: e.target
+                                              [subkey(subject)]: e.target
                                                 .value as Grade,
                                             };
                                             setSemWiseGrades(newGrades);

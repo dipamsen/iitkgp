@@ -37,11 +37,16 @@ async function getCourses() {
       departments.push(currDep);
     } else {
       const course = $(tr).find("a").first().text().trim();
-      const url = $(tr).find("a").first().attr("href");
+      const onClick = $(tr).find("a").first().attr("onclick"); // of the form "getDet('stuType','splCode','currType')"
+      const [, stuType,, splCode,, currType] = onClick.split("'");
       currDep.courses.push({
         courseName: course,
-        url: url,
-        code: new URL(baseURL + url).searchParams.get("splCode"),
+        code: splCode,
+        postBody: new URLSearchParams({
+          stuType,
+          splCode,
+          curr_type: currType,
+        }),
       });
     }
   });
@@ -50,8 +55,11 @@ async function getCourses() {
 }
 
 async function getCurriculum(course) {
-  const url = baseURL + course.url;
-  const html = await fetch(url).then((res) => res.text());
+  const url = `https://erp.iitkgp.ac.in/ERPWebServices/curricula/CurriculaSubjectsList.jsp`
+  const html = await fetch(url, {
+    method: "POST",
+    body: course.postBody,
+  }).then((res) => res.text());
   const $ = cheerio.load(html);
   const table = $("table");
   const semesters = [];
@@ -73,47 +81,60 @@ async function getCurriculum(course) {
       // tr has 6 tds, <blank>, subType, subCode, subName, LTP, credits
       // optionally, the subCode td can have an anchor tag with onclick property which opens the syllabus
       const subType = $(tr).find("td").eq(1).text().trim();
-      const subCode = $(tr).find("td").eq(2).text().trim();
-      const subName = $(tr).find("td").eq(3).text().trim();
-      const LTP = $(tr).find("td").eq(4).text().trim();
-      const credits = $(tr).find("td").eq(5).text().trim();
-      if ($(tr).find("td").eq(2).find("a").length == 0) {
+
+      if (subType.toLowerCase().includes("core")) {
+        const subCode = $(tr).find("td").eq(2).text().trim();
+        const subName = $(tr).find("td").eq(3).text().trim();
+        const LTP = $(tr).find("td").eq(4).text().trim();
+        const credits = $(tr).find("td").eq(5).text().trim();
+        if ($(tr).find("td").eq(2).find("a").length == 0) {
+          currSem.subjects.push({
+            subType,
+            elective: false,
+            subCode,
+            subName,
+            LTP: LTP.split("-").map((x) => +x),
+            credits: +credits,
+          });
+          return;
+        }
+        const callFile = (...args) => args;
+        const [pageno, fileFullPath, docId] = eval(
+          $(tr).find("td").eq(2).find("a").attr("onclick")
+        );
+        const postBody = new URLSearchParams({
+          pageno,
+          rollno: "",
+          fileFullPath,
+          docId,
+        });
+
         currSem.subjects.push({
           subType,
+          elective: false,
           subCode,
           subName,
           LTP: LTP.split("-").map((x) => +x),
           credits: +credits,
+          syllabus: {
+            url: baseURL + "commonFileDownloader.jsp",
+            postBody,
+          },
         });
-        return;
+      } else {
+        // elective course
+        // all other fields are empty (choice of student).
+        // optionally, in case of depth elective, the subType td can have an anchor to a list of choices
+        currSem.subjects.push({
+          subType,
+          elective: true,
+        });
       }
-      const callFile = (...args) => args;
-      const [pageno, fileFullPath, docId] = eval(
-        $(tr).find("td").eq(2).find("a").attr("onclick")
-      );
-      const postBody = new URLSearchParams({
-        pageno,
-        rollno: "",
-        fileFullPath,
-        docId,
-      });
-
-      currSem.subjects.push({
-        subType,
-        subCode,
-        subName,
-        LTP: LTP.split("-").map((x) => +x),
-        credits: +credits,
-        syllabus: {
-          url: baseURL + "commonFileDownloader.jsp",
-          postBody,
-        },
-      });
     }
   });
 
   course.curriculum = semesters;
-  delete course.url;
+  delete course.postBody;
 
   return semesters;
 }
@@ -134,6 +155,10 @@ async function downloadSyllabus(sub) {
     console.log(sub.syllabus.postBody.toString());
     return;
   }
+  if (fs.existsSync(`./syllabus/${sub.subCode}.pdf`)) {
+    sub.syllabus = `syllabus/${sub.subCode}.pdf`;
+    return;
+  }
   const res = await fetch(sub.syllabus.url, {
     method: "POST",
     body: sub.syllabus.postBody,
@@ -151,27 +176,12 @@ async function downloadSyllabus(sub) {
     );
     syllabiCache[sub.subCode] = sub.syllabus;
     sub.syllabus = `syllabus/${sub.subCode}.pdf`;
+    delete sub.syllabus.postBody;
   } else {
     console.log(`${sub.subCode} not available`);
     delete sub.syllabus;
   }
 }
-
-// getCourses().then((res) => {
-//   res.forEach((dep) => {
-//     dep.courses.forEach((course) => {
-//       getCurriculum(course).then((res) => {
-//         res.forEach((sem) => {
-//           sem.subjects.forEach((sub) => {
-//             if (sub.syllabus) {
-//               downloadSyllabus(sub);
-//             }
-//           });
-//         });
-//       });
-//     });
-//   });
-// });
 
 async function main() {
   if (!fs.existsSync("./syllabus")) {

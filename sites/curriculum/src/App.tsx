@@ -11,36 +11,14 @@ import {
 } from "@mui/material";
 import ArticleIcon from "@mui/icons-material/Article";
 import { useEffect, useState } from "react";
-
-interface Department {
-  name: string;
-  courses: Course[];
-}
-
-interface Course {
-  courseName: string;
-  code: string;
-  curriculum: Semester[];
-}
-
-interface Semester {
-  name: string;
-  subjects: Subject[];
-}
-
-interface Subject {
-  subType: string;
-  subCode: string;
-  subName: string;
-  LTP: number[];
-  credits: number;
-  syllabus?: string;
-}
+import { Department, Subject } from "./types";
 
 function App() {
   const [data, setData] = useState<Department[]>([]);
   const [selectedDept, setSelectedDept] = useState<number | "">("");
   const [selectedCourse, setSelectedCourse] = useState<string>("");
+
+  const subkey = (sub: Subject) => (sub.elective ? sub.subType : sub.subCode);
 
   useEffect(() => {
     fetch(
@@ -62,6 +40,7 @@ function App() {
   }, []);
 
   const colors = (subject: Subject) => {
+    if (subject.elective) return "#CAC2C9";
     if (subject.credits <= 1) return "#CAC2C9";
     if (subject.subType.toLowerCase().includes("core")) {
       if (subject.LTP[0] == 0 && subject.LTP[1] == 0) return "#5BC0BE";
@@ -155,7 +134,7 @@ function App() {
                     >
                       {semester.subjects.map((subject) => (
                         <Box
-                          key={subject.subCode}
+                          key={subkey(subject)}
                           sx={{
                             display: "flex",
                             alignItems: "center",
@@ -180,7 +159,7 @@ function App() {
                               // alignSelf: "flex-start",
                             }}
                           >
-                            {subject.subCode}
+                            {!subject.elective && subject.subCode}
                           </Typography>
                           <Typography
                             variant="body1"
@@ -193,37 +172,41 @@ function App() {
                               flex: 1,
                             }}
                           >
-                            {subject.subName}
+                            {subject.elective ? subject.subType : subject.subName}
                           </Typography>
                           <Typography
                             variant="body1"
                             sx={{ textAlign: "right" }}
                           >
-                            {subject.LTP.join("-")}
-                            <br />
-                            {subject.credits} Credits
+                            {!subject.elective && (
+                              <>
+                                {subject.LTP.join("-")}
+                                <br />
+                                {subject.credits} Credits
+                              </>
+                            )}
                           </Typography>
                           <Box>
                             <Link
                               href={
-                                subject.syllabus
+                                !subject.elective && subject.syllabus
                                   ? `https://dipamsen.github.io/iitkgp/` +
                                     subject.syllabus
                                   : undefined
                               }
                               target="_blank"
-                              aria-disabled={!subject.syllabus}
+                              aria-disabled={subject.elective || !subject.syllabus}
                             >
                               <Tooltip
                                 title={
-                                  subject.syllabus
+                                  !subject.elective && subject.syllabus
                                     ? "Syllabus"
                                     : "Not Available"
                                 }
                               >
                                 <ArticleIcon
                                   htmlColor={
-                                    subject.syllabus ? "black" : "grey"
+                                    !subject.elective && subject.syllabus ? "black" : "grey"
                                   }
                                 />
                               </Tooltip>
